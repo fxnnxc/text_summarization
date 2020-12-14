@@ -32,7 +32,7 @@
 * VAE-based PGN model to overcome the extractive nature.
 * Eliminate non-critical information from the source text using bertsum.
 
-<src img="docs/VAE-PGN.png" width=500>
+<img src="docs/VAE-PGN.png" width=500>
 
 
 #### *BERTSUM: bert-based extractive model*

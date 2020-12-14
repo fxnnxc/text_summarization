@@ -1,0 +1,34 @@
+TOTAL_NUM_UPDATES=20000  
+WARMUP_UPDATES=500      
+LR=3e-05
+MAX_TOKENS=2048
+UPDATE_FREQ=4
+BART_PATH=checkpoints/bart.base/model.pt
+ARCH=bart_base
+SAVE_INTERVAL=3
+CHECKPOINT_SUFFIX=BartVae
+VALID_INTERVAL_UPDATE=1000
+
+CUDA_VISIBLE_DEVICES=4,5 python train_bart.py data/cnn_dm-base-bin \
+    --restore-file $BART_PATH \
+    --max-tokens $MAX_TOKENS \
+    --task translation \
+    --source-lang source --target-lang target \
+    --truncate-source \
+    --layernorm-embedding \
+    --share-all-embeddings \
+    --share-decoder-input-output-embed \
+    --reset-optimizer --reset-dataloader --reset-meters \
+    --required-batch-size-multiple 1 \
+    --arch $ARCH \
+    --criterion vae_loss \
+    --label-smoothing 0.1 \
+    --dropout 0.1 --attention-dropout 0.1 \
+    --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
+    --weight-decay 0.01 --optimizer adam --adam-betas "(0.9, 0.999)" --adam-eps 1e-08 \
+    --clip-norm 0.1 \
+    --update-freq $UPDATE_FREQ \
+    --skip-invalid-size-inputs-valid-test \
+    --find-unused-parameters \
+    --save-interval $SAVE_INTERVAL \
+    --checkpoint-suffix $CHECKPOINT_SUFFIX ;

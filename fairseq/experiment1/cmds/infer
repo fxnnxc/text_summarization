@@ -1,0 +1,9 @@
+CHECKPOINT_FILE=checkpoint_bestLSTM.pt
+DATA_PATH=data/cnn_dm-small
+SOURCE=val.source
+HYPO=val.hypo
+
+python inference/inference_beam.py --checkpoint_file $CHECKPOINT_FILE \
+       --data_path $DATA_PATH \
+       --source $SOURCE \
+       --hypo $HYPO ;

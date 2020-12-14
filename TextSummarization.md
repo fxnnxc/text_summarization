@@ -27,13 +27,27 @@
 * *Holtzman et al*
 * Threashold p (p=1 means sampling from the full distribution)
 
+#### **VAE-PGN based Abstractive model in Multi-stage Archietecture**
+### **for Text Summarization**
+* [*Hyungtak Choi et al.*](https://www.aclweb.org/anthology/W19-8664.pdf)
+* Pointer-Generator Network(PGN)
+* VAE-based PGN model to overcome the extractive nature.
+* Eliminate non-critical information from the source text
 
+
+#### *BERTSUM: bert-based extractive model*
+* *Liu*
+* eliminate less important sentences by scoring each sentence in the source text.
 ---
 
 ### 2018
 
 #### **Top-k**
 * *Fan et al.,*
+
+#### **word-level content selectino model to focuse on only critical information**
+*Gehrmann et tal.*
+
 
 ---
 
@@ -50,7 +64,8 @@
 #### **Beta VAE with annealing** 
 * *Bowman et al.*
 
-
+#### **Copy mechanism**
+* *Gu et al. 2016*
 
 ---
 

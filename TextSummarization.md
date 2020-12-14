@@ -8,10 +8,9 @@
 
 ---
 
-### 2019
+## 2019
 
-#### **On the Importance of the Kullback-Leibler Divergence Term**
-#### **in Variational Autoencoders for Text Generation**
+#### **On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation**
 * *Proceedings ofthe 3rd Workshop on Neural Generation and Translation (WNGT 2019)*
 
 
@@ -27,8 +26,7 @@
 * *Holtzman et al*
 * Threashold p (p=1 means sampling from the full distribution)
 
-#### **VAE-PGN based Abstractive model in Multi-stage Archietecture**
-### **for Text Summarization**
+#### **VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization**
 * [*Hyungtak Choi et al.*](https://www.aclweb.org/anthology/W19-8664.pdf)
 * Pointer-Generator Network(PGN)
 * VAE-based PGN model to overcome the extractive nature.
@@ -40,7 +38,7 @@
 * eliminate less important sentences by scoring each sentence in the source text.
 ---
 
-### 2018
+## 2018
 
 #### **Top-k**
 * *Fan et al.,*
@@ -51,11 +49,11 @@
 
 ---
 
-### 2017
+## 2017
 
 ---
 
-### 2016
+## 2016
 
 #### **Vanilla VAE applied to text** 
 * *Bowmman et al.*
@@ -69,12 +67,12 @@
 
 ---
 
-### 2015
+## 2015
 
 
 ---
 
-### 2014
+## 2014
 
 #### **VAEs**
 * *Kingma and Welling*
@@ -93,8 +91,7 @@
 #### **Sol1.** Modifiying the architecture of the model by weakening decoders
 * *Bowman et al., 2016; Miao et al., 2015; Yang et al., 2017; Semeniuta et al., 2017;*
 
-#### **Sol2.** Introducing additional connections between the encder and decoder
-#### to enforce the dependence between x and z
+#### **Sol2.** Introducing additional connections between the encder and decoder to enforce the dependence between x and z
 * *Zhao et al., 2017; Goyal et al., 2017; Dieng et al., 2018*
 
 

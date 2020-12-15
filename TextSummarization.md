@@ -53,6 +53,12 @@
 
 ## 2017
 
+#### **Point Generator Network**
+* [*See et al*](https://arxiv.org/abs/1704.04368)
+* Used Novel N-Gram to calculate how the summary is abstractive.
+* 
+
+
 ---
 
 ## 2016

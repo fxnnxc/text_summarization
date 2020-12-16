@@ -26,7 +26,7 @@
 |**2019**|
 |---|
 
-## **On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation**
+### **On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation**
 * *Proceedings ofthe 3rd Workshop on Neural Generation and Translation (WNGT 2019)*
 
 
@@ -34,11 +34,11 @@
 * Sender-Receiver in a communication network. ***R*** : rate which measures the compression level of z as compared to the original message x. ***D*** : overall performance of the communication in encoding a message at sender and successfully decoding it at the receiver ***I(x;z)*** : the capacity of the encoder channel (Mutual Information)
 
   
-## **Nucleus Sampling(NS)**
+### **Nucleus Sampling(NS)**
 * *Holtzman et al*
 * Threashold p (p=1 means sampling from the full distribution)
 
-## **VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization**
+### **VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization**
 * [*Hyungtak Choi et al.*](https://www.aclweb.org/anthology/W19-8664.pdf)
 * Pointer-Generator Network(PGN)
 * VAE-based PGN model to overcome the extractive nature. Eliminate non-critical information from the source text using bertsum.
@@ -46,28 +46,28 @@
 <img src="docs/VAE-PGN.png" width=500>
 
 
-## **BERTSUM: bert-based extractive model**
+### **BERTSUM: bert-based extractive model**
 * *Liu*
 * eliminate less important sentences by scoring each sentence in the source text.
 
-## **cyclic annealing schedule** 
+### **cyclic annealing schedule** 
 * [*Hao Fu et al.*](https://arxiv.org/pdf/1903.10145.pdf) or [Blog](https://www.microsoft.com/en-us/research/blog/less-pain-more-gain-a-simple-method-for-vae-training-with-less-of-that-kl-vanishing-agony/)
 * 
 
 |**2018**|
 |---|
 
-## **Top-k**
+### **Top-k**
 * *Fan et al.,*
 
-## **word-level content selectino model to focuse on only critical information**
+### **word-level content selectino model to focuse on only critical information**
 *Gehrmann et tal.*
 
 
 |**2017**|
 |---|
 
-## **Point Generator Network**
+### **Point Generator Network**
 * [*See et al*](https://arxiv.org/abs/1704.04368)
 * Used Novel N-Gram to calculate how the summary is abstractive.
 
@@ -76,14 +76,14 @@
 |**2016**|
 |---|
 
-## **Vanilla VAE applied to text** 
+### **Vanilla VAE applied to text** 
 * *Bowmman et al.*
 
 
-## **Beta VAE with annealing** 
+### **Beta VAE with annealing** 
 * *Bowman et al.*
 
-## **Copy mechanism**
+### **Copy mechanism**
 * *Gu et al. 2016*
 
 
@@ -94,10 +94,10 @@
 |**2014**|
 |---|
 
-## **VAEs**
+### **VAEs**
 * *Kingma and Welling*
 
-## **Generative Adversarial Networks(GANs)**
+### **Generative Adversarial Networks(GANs)**
 * *Goodfellow et al.*
 
 

@@ -1,5 +1,6 @@
 
-# Experiment 2
+# Experiment 2 (Text Summarization T-CVAE Annealing Schedule)
+
 
 > Start Date : 2020.12.16
 > Finish Data : 

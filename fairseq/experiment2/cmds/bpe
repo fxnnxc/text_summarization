@@ -1,0 +1,30 @@
+
+
+
+TASK=data/cnn_dm-large
+ENCODER=data/encoder.json
+VOCAB=data/vocab.bpe
+
+for SPLIT in train val
+do
+  for LANG in source target
+  do
+    python -m examples.roberta.multiprocessing_bpe_encoder \
+    --encoder-json $ENCODER \
+    --vocab-bpe $VOCAB \
+    --inputs "$TASK/$SPLIT.$LANG" \
+    --outputs "$TASK/$SPLIT.bpe.$LANG" \
+    --workers 60 \
+    --keep-empty;
+  done
+done
+
+python fairseq_cli/preprocess.py \
+  --source-lang "source" \
+  --target-lang "target" \
+  --trainpref "${TASK}/train.bpe" \
+  --validpref "${TASK}/val.bpe" \
+  --destdir "${TASK}-bin/" \
+  --workers 60 \
+  --srcdict ${TASK}/dict.txt \
+  --tgtdict ${TASK}/dict.txt;

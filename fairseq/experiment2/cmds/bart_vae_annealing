@@ -1,0 +1,45 @@
+TOTAL_NUM_UPDATES=20000  
+MAX_EPOCH=2
+WARMUP_UPDATES=500      
+LR=3e-05
+MAX_TOKENS=2048
+UPDATE_FREQ=4
+BART_PATH=checkpoints/base.large/model.pt
+ARCH=bart_large
+SAVE_INTERVAL=2
+CHECKPOINT_SUFFIX=ANNEALING_V1
+NORMALIZED_KLD=False
+tradeoffXZ=0.5
+annealing_M=2
+annealing_R=0.5
+total_number=29400
+
+CUDA_VISIBLE_DEVICES=3,4 python train_bart.py data/cnn_dm-large-bin \
+    --restore-file $BART_PATH \
+    --max-tokens $MAX_TOKENS \
+    --task translation \
+    --source-lang source --target-lang target \
+    --truncate-source \
+    --layernorm-embedding \
+    --share-all-embeddings \
+    --share-decoder-input-output-embed \
+    --reset-optimizer --reset-dataloader --reset-meters \
+    --required-batch-size-multiple 1 \
+    --arch $ARCH \
+    --tradeoffXZ $tradeoffXZ \
+    --criterion annealing_loss \
+    --annealing-M $annealing_M \
+    --annealing-R $annealing_R \
+    --total-number $total_number \
+    --normalized-kld $NORMALIZED_KLD \
+    --label-smoothing 0.1 \
+    --dropout 0.1 --attention-dropout 0.1 \
+    --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
+    --weight-decay 0.01 --optimizer adam --adam-betas "(0.9, 0.999)" --adam-eps 1e-08 \
+    --clip-norm 0.1 \
+    --update-freq $UPDATE_FREQ \
+    --skip-invalid-size-inputs-valid-test \
+    --find-unused-parameters \
+    --save-interval $SAVE_INTERVAL \
+    --checkpoint-suffix $CHECKPOINT_SUFFIX \
+    --max-epoch $MAX_EPOCH ;

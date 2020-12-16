@@ -1,5 +1,5 @@
 
-# About Experiment 1
+# Experiment 1
 
 > Date : 2020.12.10
 

@@ -50,9 +50,9 @@
 * *Liu*
 * eliminate less important sentences by scoring each sentence in the source text.
 
-### **cyclic annealing schedule** 
+### **Cyclic annealing schedule** 
 * [*Hao Fu et al.*](https://arxiv.org/pdf/1903.10145.pdf) or [Blog](https://www.microsoft.com/en-us/research/blog/less-pain-more-gain-a-simple-method-for-vae-training-with-less-of-that-kl-vanishing-agony/)
-* 
+* KL vanshing is caused by the lack of good latent codes in training the decoder at the begining of optimization
 
 |**2018**|
 |---|
@@ -71,6 +71,8 @@
 * [*See et al*](https://arxiv.org/abs/1704.04368)
 * Used Novel N-Gram to calculate how the summary is abstractive.
 
+### **Controllable text generation**
+* [*Hu et al*](https://arxiv.org/abs/1703.00955)
 
 
 |**2016**|
@@ -82,6 +84,7 @@
 
 ### **Beta VAE with annealing** 
 * *Bowman et al.*
+* gradually increase the beta term while training.
 
 ### **Copy mechanism**
 * *Gu et al. 2016*

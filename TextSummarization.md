@@ -1,27 +1,40 @@
 # Text Summarization
 
+
+# Items
+
+* Point Generator Network
+* VAE
+* Transformer
+* 
+
+---
+
+# Ideas 
+1. In the transformer, there may be identical mapping from encoder to decoder cause we do cross attention with encoded document and decoder elements.
+<img src="docs/idea1.jpg" width=400px>
+
+---
+
 ## Papers 
 
 ---
 
-### 2020
+|**2020**|
+|---|
 
----
 
-## 2019
+
+### 2019
 
 #### **On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation**
 * *Proceedings ofthe 3rd Workshop on Neural Generation and Translation (WNGT 2019)*
 
 
-* controlling the information transmitted through the VAE channel
-* the trade-off between the amount of informa- tion encoded in a latent code during training, and the generative capacity of the model.
-* Sender-Receiver in a communication network
- * *R* : rate which measures the compression level of z as compared to the original message x
- * *D* : overall performance of the communication in encoding a message at sender and successfully decoding it at the receiver
- * *I(x;z)* : the capacity of the encoder channel (Mutual Information)
+* controlling the information transmitted through the VAE channel. The trade-off between the amount of informa- tion encoded in a latent code during training, and the generative capacity of the model.
+* Sender-Receiver in a communication network. ***R*** : rate which measures the compression level of z as compared to the original message x. ***D*** : overall performance of the communication in encoding a message at sender and successfully decoding it at the receiver ***I(x;z)*** : the capacity of the encoder channel (Mutual Information)
 
-
+  
 #### **Nucleus Sampling(NS)**
 * *Holtzman et al*
 * Threashold p (p=1 means sampling from the full distribution)
@@ -29,16 +42,19 @@
 #### **VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization**
 * [*Hyungtak Choi et al.*](https://www.aclweb.org/anthology/W19-8664.pdf)
 * Pointer-Generator Network(PGN)
-* VAE-based PGN model to overcome the extractive nature.
-* Eliminate non-critical information from the source text using bertsum.
+* VAE-based PGN model to overcome the extractive nature. Eliminate non-critical information from the source text using bertsum.
 
 <img src="docs/VAE-PGN.png" width=500>
 
 
-#### *BERTSUM: bert-based extractive model*
+#### **BERTSUM: bert-based extractive model**
 * *Liu*
 * eliminate less important sentences by scoring each sentence in the source text.
----
+
+#### **cyclic annealing schedule** 
+* [*Hao Fu et al.*](https://arxiv.org/pdf/1903.10145.pdf) or [Blog](https://www.microsoft.com/en-us/research/blog/less-pain-more-gain-a-simple-method-for-vae-training-with-less-of-that-kl-vanishing-agony/)
+* 
+
 
 ## 2018
 
@@ -49,17 +65,14 @@
 *Gehrmann et tal.*
 
 
----
 
 ## 2017
 
 #### **Point Generator Network**
 * [*See et al*](https://arxiv.org/abs/1704.04368)
 * Used Novel N-Gram to calculate how the summary is abstractive.
-* 
 
 
----
 
 ## 2016
 
@@ -73,12 +86,10 @@
 #### **Copy mechanism**
 * *Gu et al. 2016*
 
----
 
 ## 2015
 
 
----
 
 ## 2014
 

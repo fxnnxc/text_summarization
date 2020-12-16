@@ -24,8 +24,8 @@
 |---|
 
 
-
-### 2019
+|**2019**|
+|---|
 
 #### **On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation**
 * *Proceedings ofthe 3rd Workshop on Neural Generation and Translation (WNGT 2019)*
@@ -55,8 +55,8 @@
 * [*Hao Fu et al.*](https://arxiv.org/pdf/1903.10145.pdf) or [Blog](https://www.microsoft.com/en-us/research/blog/less-pain-more-gain-a-simple-method-for-vae-training-with-less-of-that-kl-vanishing-agony/)
 * 
 
-
-## 2018
+|**2018**|
+|---|
 
 #### **Top-k**
 * *Fan et al.,*
@@ -65,8 +65,8 @@
 *Gehrmann et tal.*
 
 
-
-## 2017
+|**2017**|
+|---|
 
 #### **Point Generator Network**
 * [*See et al*](https://arxiv.org/abs/1704.04368)
@@ -74,7 +74,8 @@
 
 
 
-## 2016
+|**2016**|
+|---|
 
 #### **Vanilla VAE applied to text** 
 * *Bowmman et al.*
@@ -87,11 +88,12 @@
 * *Gu et al. 2016*
 
 
-## 2015
+|**2015**|
+|---|
 
 
-
-## 2014
+|**2014**|
+|---|
 
 #### **VAEs**
 * *Kingma and Welling*

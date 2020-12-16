@@ -3,7 +3,8 @@
 
 
 > Start Date : 2020.12.16
-> Finish Data : 
+
+> Finish Data : 👨‍💻
 
 This experiment is finding best KL-annealing strategy to outperform BART base model. 
 

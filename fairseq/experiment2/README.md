@@ -9,7 +9,7 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 
 
 |number|Model|Structure|Total_Updates|Annealing_M|Annealing_R|ROUGE1|ROUGE2|ROUGEL|
-|---   |:-:  |---      |:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:  |:-:  |---      |:-:|:-:|:-:|:-:|:-:|:-:|
 |-|BART|-|-|-|-| ❌|❌ | ❌|
 |V1|BART_VAE|<img src="docs/model1.png" width=200px>|29400| 2| 0.5|❌|❌|❌|
 |V2|BART_VAE|<img src="docs/model1.png" width=200px>|29400| 4| 0.5|❌|❌|❌|

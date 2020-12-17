@@ -9,6 +9,16 @@
 This experiment is finding best KL-annealing strategy to outperform BART base model. 
 
 
+# Source code
+
+## Model
+|script|info|
+|:-:|:-:|
+|bart_vae_annealing.py|model1 concat|
+|bart_vae_annealing2.py|model2 add|
+
+#Results
+
 
 |number|Model|Structure|Total_Updates|Annealing_M|Annealing_R|ROUGE1|ROUGE2|ROUGEL|
 |:-:  |:-:  |---      |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -17,6 +27,9 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 |V2|BART_VAE|<img src="docs/model1.png" width=200px>|29400| 4| 0.5|❌|❌|❌|
 |V3|BART_VAE|<img src="docs/model1.png" width=200px>|29400| 8| 0.5|❌|❌|❌|
 |V4|BART_VAE|<img src="docs/model1.png" width=200px>|29400| Const.| Const.|❌|❌|❌|
+|V5|BART_VAE|<img src="docs/model2.png" width=200px>|29400|2| Const.|❌|❌|❌|
+|V6|BART_VAE|<img src="docs/model2.png" width=200px>|29400|8| Const.|❌|❌|❌|
+|V7|BART_VAE|<img src="docs/model2.png" width=200px>|29400| Const.| Const.|❌|❌|❌|
 
 
 

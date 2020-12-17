@@ -51,11 +51,11 @@ class BART_VAE_ANNEALING(nn.Module):
                 lb_decay_rate=1,
                 lb_decay_step=1000,
                 tradeoffXZ=0.5,
-                n=1024):
+                n=768):
         super().__init__()
         self.baseline_model = baseline_model
-        self.encoder = baseline_model.encoder 
-        self.decoder = baseline_model.decoder
+        # self.encoder = baseline_model.encoder 
+        # self.decoder = baseline_model.decoder
         self.args = args
         self.lstm_out = LSTMBart()
         # self.lstm_mu = nn.LSTM(n,n//2, 2)  #input_dim x hidden x layer
@@ -99,7 +99,7 @@ class BART_VAE_ANNEALING(nn.Module):
         if classification_head_name is not None:
             features_only = True
 
-        encoder_out = self.encoder(   # T X B X C
+        encoder_out = self.baseline_model.encoder(   # T X B X C
             src_tokens,
             src_lengths=src_lengths,
             token_embeddings=token_embeddings,
@@ -123,8 +123,8 @@ class BART_VAE_ANNEALING(nn.Module):
         
         # mu, (hn, cn) = self.lstm_mu(x, (h0_m, c0_m))
         # var, (hn, cn) = self.lstm_var(x, (h0_v, c0_v))
-        # mu, hn = self.lstm_mu(x, h0_m)
-        # var, hn = self.lstm_var(x, h0_v)
+        mu, hn = self.lstm_mu(x, h0_m)
+        var, hn = self.lstm_var(x, h0_v)
 
 
         z = self.reparameterize(mu[:,-1,:], var[:, -1, : ])        
@@ -151,7 +151,7 @@ class BART_VAE_ANNEALING(nn.Module):
 
 
 
-        x, extra = self.decoder(
+        x, extra = self.baseline_model.decoder(
             prev_output_tokens,
             encoder_out=encoder_out_, #encoder_out_,
             features_only=False,
@@ -167,7 +167,7 @@ class BART_VAE_ANNEALING(nn.Module):
 
         if classification_head_name is not None:
             sentence_representation = x[
-                src_tokens.eq(self.encoder.dictionary.eos()), :
+                src_tokens.eq(self.baseline_model.encoder.dictionary.eos()), :
             ].view(x.size(0), -1, x.size(-1))[:, -1, :]
             x = self.classification_heads[classification_head_name](
                 sentence_representation

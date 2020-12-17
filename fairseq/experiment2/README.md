@@ -13,7 +13,7 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 
 ## Scripts
 |script|info|
-|:-:|:-:|
+|:--|:-:|
 |bart_vae_annealing.py|model1 concat|
 |bart_vae_annealing2.py|model2 add|
 |annealing_loss.py| annealing strategy KLD loss|

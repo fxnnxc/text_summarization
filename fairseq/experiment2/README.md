@@ -22,6 +22,11 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 
 
 ## Learning Curves
+
+|Overlap|
+|---|
+|<img src="docs/overlap.png" width=600px>|
+
 |Model|ELBO|Reconstruction Error |KL term|
 |---|---|---|---|
 |0|<img src="docs/0_elbo.png" width=200px>|<img src="docs/0_recon.png" width=200px>|<img src="docs/0_kl.png" width=200px>|

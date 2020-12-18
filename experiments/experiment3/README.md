@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src=https://img.shields.io/badge/fairseq-v0.10.1-blue) /></a>
+  <img src=https://img.shields.io/badge/fairseq-v0.10.1-blue width=150px></a>
 </p>
 
 

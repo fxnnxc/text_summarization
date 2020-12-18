@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="naver.com" src=https://img.shields.io/badge/fairseq-v0.10.1-blue?style=flat height=40px></a> 
+  <img href="naver.com" src=https://img.shields.io/badge/fairseq-v0.10.1-blue?style=flat height=40px></a> 
   <img src=https://img.shields.io/badge/Python-v3.6.8-green?style=flat&logo=python height=40px></a> 
 </p>
 

@@ -1,5 +1,11 @@
 # text_summarization
 
+
+<p align="center">
+  <a href="https://github.com/pytorch/fairseq"><img src=https://img.shields.io/badge/fairseq-v0.10.1-blue?style=flat height=30px></a> 
+  <img src=https://img.shields.io/badge/Python-v3.6.8-green?style=flat&logo=python height=30px></a> 
+</p>
+
 ## Experiments 🥼
 
 | Index | Info | Stability  <br/> (Difficult Degree)|

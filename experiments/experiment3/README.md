@@ -19,3 +19,13 @@ A same experiment with [experiment2](https://github.com/fxnnxc/text_summarizatio
 |models|vae_bart.py|model class|
 |models|hub_interface.py|for sampling. it is sample with BART hub-interface|
 
+# Mini
+
+## Mini1
+
+|Loss with/without annealing|
+|:-:|
+|<src img="docs/mini11.png" width=500px>|
+
+* The KL-D doesn't diverge even with beta 0. It looks stable.  
+* The model architecture is additive xz=a\*x +(1-a)\*z

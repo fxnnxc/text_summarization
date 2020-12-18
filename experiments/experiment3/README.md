@@ -21,7 +21,7 @@ Get higher ROUGE score than the rouge-score of original bart using latent space 
 # Todo
 
 - [ ] Find a good model
-
+- [ ] Train bart base
 
 # Model
 

@@ -10,15 +10,22 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 
 # Results
 1. **KL-Term is ill-implemented cause we can not see the annealing**
-   1. In the loss. I added KL-Loss to cross-entropy loss which is not reduced to the token size. for example, if  final distribution is (4, 768(mean) ,50120) --> (4, 768), so it depends on the length of the sample. if it has long token, then the loss was high while KL-term wasn't.
+   1. I added KL-Loss to cross-entropy loss which is not reduced to the token size. 
+
+      for example, the final distribution is {4(batch), **768(token)** ,50120} --> (4, **768**)
+       
+      so it depends on the length of the sample. 
+      
+      if it has long token size, then the loss is high while KL-term isn't.
 
 2. **Inference step is hard to code.** 
    1. This architecture didn't match BART but I trained it with BART class.
-   2. Inference procedure of VAE-BART is different with the procedure of BART, **so it is not a good way to coding**
+   2. Inference procedure of VAE-BART is same with the procedure of BART but different code style, **so it is not a good way of coding**
+
 
 # Conclusion
-1. I should find a way to extend fairseq code(how to define model class which uses a pretrained model?) 
-2. KL-Term is too mimic as mentioned in Result-1. I should find a right way to gradient descent.
+1. I should find a better way to extend fairseq code(how to define model class which supports a pretrained model) 
+2. KL-Term is too mimic as mentioned in Result-1. I should find a right way of gradient descent.
 
 ---
 

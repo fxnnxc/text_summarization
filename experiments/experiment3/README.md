@@ -28,6 +28,8 @@ A same experiment with [experiment2](https://github.com/fxnnxc/text_summarizatio
 
 # 🛩️ Mini Experiments 🛩️
 
+Additional Mini Experiments
+
 ## [Mini 1] KL annealing for additive latent variable z
 
 |Loss with/without annealing|

@@ -2,7 +2,7 @@
 
 ## Experiments 🥼
 
-| Index | Info | Stability |
+| Index | Info | Stability  <br/> (Difficult Degree)|
 |:-:|:-:|:--|
 |[Experiment1](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment1)|BART + beta-VAE using LSTM|[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
 |[Experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2)|BART + beta-VAE LSTM with anealing schedule|[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|

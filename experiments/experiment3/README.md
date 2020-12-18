@@ -1,7 +1,7 @@
 
 <p align="center">
   <img src=https://img.shields.io/badge/fairseq-v0.10.1-blue width=150px></a> 
-  <img src=https://img.shields.io/badge/Python-v3.6.8-blue?logo=python width=150px></a> 
+  <img src=https://img.shields.io/badge/Python-v3.6.8-green?logo=python width=160px></a> 
 </p>
 
 

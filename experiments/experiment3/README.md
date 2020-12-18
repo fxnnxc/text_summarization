@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src=https://img.shields.io/badge/fairseq-v0.10.1-blue) /></a>
+</p>
+
+
 # Experiment 3 (Text Summarization T-CVAE Annealing Schedule) 
 
 A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code. now the code extends fairseq, and i found a better way to build a class which is suitable to use pretrained model(Nice!).

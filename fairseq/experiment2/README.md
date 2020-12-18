@@ -52,6 +52,9 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 |V1|<img src="docs/1_elbo.png" width=200px>|<img src="docs/1_ce.png" width=200px>|<img src="docs/1_kl.png" width=200px>|
 |V2|<img src="docs/2_elbo.png" width=200px>|<img src="docs/2_ce.png" width=200px>|<img src="docs/2_kl.png" width=200px>|
 |V3|<img src="docs/3_elbo.png" width=200px>|<img src="docs/3_ce.png" width=200px>|<img src="docs/3_kl.png" width=200px>|
+|V5|<img src="docs/5_elbo.png" width=200px>|<img src="docs/5_ce.png" width=200px>|<img src="docs/5_kl.png" width=200px>|
+|V6|<img src="docs/6_elbo.png" width=200px>|<img src="docs/6_ce.png" width=200px>|<img src="docs/6_kl.png" width=200px>|
+
 
 
 

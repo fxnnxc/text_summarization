@@ -1,6 +1,6 @@
 # Experiment 3 (Text Summarization T-CVAE Annealing Schedule) 
 
-This is a same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code. now the code extends fairseq, and i found a better way to build a class which is suitable to use pretrained model(Nice!).
+A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code. now the code extends fairseq, and i found a better way to build a class which is suitable to use pretrained model(Nice!).
 
 
 > Start Date : 2020.12.19

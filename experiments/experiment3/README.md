@@ -19,7 +19,7 @@ A same experiment with [experiment2](https://github.com/fxnnxc/text_summarizatio
 |models|vae_bart.py|model class|
 |models|hub_interface.py|for sampling. it is sample with BART hub-interface|
 
-# Mini Experiments
+# Mini Experiments 🛩️
 
 ## Mini-1
 

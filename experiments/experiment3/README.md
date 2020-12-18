@@ -25,7 +25,7 @@ A same experiment with [experiment2](https://github.com/fxnnxc/text_summarizatio
 
 |Loss with/without annealing|
 |:-:|
-|<src img="docs/mini11.png" width=500px>|
+|<img src="docs/mini11.png" width=500px>|
 
 * The KL-D doesn't diverge even with beta 0. It looks stable.  
 * The model architecture is additive xz=a\*x +(1-a)\*z

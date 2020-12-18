@@ -26,6 +26,7 @@ This experiment is finding best KL-annealing strategy to outperform BART base mo
 # Conclusion
 1. I should find a better way to extend fairseq code(how to define model class which supports a pretrained model) 
 2. KL-Term is too mimic as mentioned in Result-1. I should find a right way of gradient descent.
+<img src="docs/kld.png" width=800px>
 
 ---
 

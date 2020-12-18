@@ -7,7 +7,7 @@
 
 # Text Summarization Using Latent Space in Transformer (experiment3)
 
-A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code.
+A similar experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code.
 
 Now the experimental codes extend fairseq and I found a better way to build a class which is suitable **to use pretrained model**(Nice!).
 

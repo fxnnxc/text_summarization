@@ -9,15 +9,42 @@
 
 A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code. now the code extends fairseq, and i found a better way to build a class which is suitable to use pretrained model(Nice!).
 
-
 > Start Date : 2020.12.19
 
 > Finish Date : 👨‍💻
 
+# Todo
+
+- [ ] Find a good model
 
 # Source Code
 
 > You can use it **without modification** in the original fairseq code.  
+
+
+|cat|script|info|
+|:-:|:--|:-:|
+|criterions|kld_loss.py|KL-Divergence loss is defined|
+|models|vae_bart.py|model class|
+|models|hub_interface.py|for sampling. it is sample with BART hub-interface|
+
+# 🛩️ Mini Experiments 🛩️
+
+Additional Mini Experiments
+
+## [Mini 1] KL annealing for additive latent variable z
+
+|Loss with/without annealing|
+|:-:|
+|<img src="docs/mini11.png" width=500px>|
+
+* The KL-D doesn't diverge even with beta 0. It looks stable.  
+* The model architecture is additive xz=a\*x +(1-a)\*z
+
+
+# Train / Inference shell
+
+### Train
 ```bash
 TOTAL_NUM_UPDATES=20000 
 WARMUP_UPDATES=500      
@@ -59,23 +86,3 @@ CUDA_VISIBLE_DEVICES=0 python train.py data/cnn_dm-base-bin \
     --max-epoch $MAX_EPOCH ;
 
 ```
-
-
-|cat|script|info|
-|:-:|:--|:-:|
-|criterions|kld_loss.py|KL-Divergence loss is defined|
-|models|vae_bart.py|model class|
-|models|hub_interface.py|for sampling. it is sample with BART hub-interface|
-
-# 🛩️ Mini Experiments 🛩️
-
-Additional Mini Experiments
-
-## [Mini 1] KL annealing for additive latent variable z
-
-|Loss with/without annealing|
-|:-:|
-|<img src="docs/mini11.png" width=500px>|
-
-* The KL-D doesn't diverge even with beta 0. It looks stable.  
-* The model architecture is additive xz=a\*x +(1-a)\*z

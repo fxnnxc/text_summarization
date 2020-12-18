@@ -5,7 +5,7 @@
 </p>
 
 
-# Experiment 3 (Text Summarization T-CVAE Annealing Schedule) 
+# Text Summarization Using Latent Space in Transformer (experiment3)
 
 A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code.
 

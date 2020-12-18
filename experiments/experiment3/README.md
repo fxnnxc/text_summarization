@@ -7,15 +7,30 @@
 
 # Experiment 3 (Text Summarization T-CVAE Annealing Schedule) 
 
-A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code. now the code extends fairseq, and i found a better way to build a class which is suitable to use pretrained model(Nice!).
+A same experiment with [experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2) but more stable code.
+
+Now the experimental codes extend fairseq and I found a better way to build a class which is suitable **to use pretrained model**(Nice!).
 
 > Start Date : 2020.12.19
 
 > Finish Date : 👨‍💻
 
+# Goal
+Get higher ROUGE score than the rouge-score of original bart using latent space in the transformer.
+
 # Todo
 
 - [ ] Find a good model
+
+
+# Model
+
+Not yet
+
+# Experiment
+
+Not yet
+
 
 # Source Code
 

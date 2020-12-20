@@ -24,3 +24,9 @@
 * VAEs
 * Transformer
 * ACL
+
+
+# Todo
+
+- [ ] Find a good model
+- [ ] Train bart base

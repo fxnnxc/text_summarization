@@ -2,7 +2,7 @@
 
 |script|info|
 |:-:|:--|
-|bart_base_inference_parallel.py|inference of bart using parallel threads|
+|bart_base_inference_parallel.py|inference of bart using parallel threads <br/> it will make a directory to store parallel scripts and remove the directory after finishing inference|
 |bart_base_inference.ipynb|notebook file for bartbase inference|
 |bart_vae_inference.ipynb|notebook file for vae_bart inference|
 |ROUGE_SCORE.ipynb|Calculate just rouge score and no inference|

@@ -18,11 +18,6 @@ Now the experimental codes extend fairseq and I found a better way to build a cl
 # Goal
 Get higher ROUGE score than the rouge-score of original bart using latent space in the transformer.
 
-# Todo
-
-- [ ] Find a good model
-- [ ] Train bart base
-
 # Model
 
 Not yet

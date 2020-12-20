@@ -8,6 +8,7 @@
 |ROUGE_SCORE.ipynb|Calculate just rouge score and no inference|
 
 
+## Parallel Verision 
 ```bash
 python bart_base_inference_parallel.py \
   --data_path data/cnn_dm-base \

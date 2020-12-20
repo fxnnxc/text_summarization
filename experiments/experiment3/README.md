@@ -20,7 +20,7 @@ Get higher ROUGE score than the rouge-score of original bart using latent space 
 
 # Model
 
-Not yet
+<img src="docs/model1.png" width=500px>
 
 # Experiment
 

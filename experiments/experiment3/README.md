@@ -51,6 +51,17 @@ Additional Mini Experiments
 * The KL-D doesn't diverge even with beta 0. It looks stable.  
 * The model architecture is additive xz=a\*x +(1-a)\*z
 
+## [Mini 2] KL annealing with different cycle
+|beta|KLD|
+|---|---|
+|![image](https://user-images.githubusercontent.com/51252792/102706323-371bc980-42d4-11eb-8a02-3ae327dc3b97.png)|Orange ![image](https://user-images.githubusercontent.com/51252792/102706632-06895f00-42d7-11eb-8e43-201d91d08a63.png)|
+|![image](https://user-images.githubusercontent.com/51252792/102706340-561a5b80-42d4-11eb-9c6e-2701abeab587.png)|BLUE ![image](https://user-images.githubusercontent.com/51252792/102706407-12742180-42d5-11eb-8dcb-01ea01486671.png)|
+|![image](https://user-images.githubusercontent.com/51252792/102706455-5cf59e00-42d5-11eb-9625-e1ad08bcca75.png)|RED ![image](https://user-images.githubusercontent.com/51252792/102706468-7eef2080-42d5-11eb-9996-7cb6ce96c6b7.png)|
+|![image](https://user-images.githubusercontent.com/51252792/102706490-b2ca4600-42d5-11eb-8ada-674589825e51.png)|**SkyBlue** ![image](https://user-images.githubusercontent.com/51252792/102706537-1fdddb80-42d6-11eb-8903-3e322bc89832.png)|
+| **0.5 difference** ![image](https://user-images.githubusercontent.com/51252792/102706587-82cf7280-42d6-11eb-8f7a-da46da0baae6.png)|![image](https://user-images.githubusercontent.com/51252792/102706622-e194ec00-42d6-11eb-981c-04e77cdbdf0d.png)|
+|![image](https://user-images.githubusercontent.com/51252792/102706834-a8f61200-42d8-11eb-8505-7a178f1ad1f8.png)|![image](https://user-images.githubusercontent.com/51252792/102706922-8284a680-42d9-11eb-916a-163266ac5a93.png)|
+
+
 
 # Train / Inference shell
 

@@ -18,13 +18,21 @@ Now the experimental codes extend fairseq and I found a better way to build a cl
 # Goal
 Get higher ROUGE score than the rouge-score of original bart using latent space in the transformer.
 
-# Model
+# Models
+|index|Structure|info|
+|---|---|---|
+|1|<img src="docs/model1.png" width=500px>|using **GRU(2, 768/2)** for generating z and same **GRU** for generating z1 from encoder and z2 from the decoder(sharing parameters)|
 
-<img src="docs/model1.png" width=500px>
 
 # Experiment
 
-Not yet
+This experiment used bart_base model, not bart_large. 
+because I thought model architecture is more important than model performance itself.  
+
+|Model|Rouge Score(R1,R2,RL)|epoch|
+|:-:|:-:|:-:|
+|bart-base|0.296 0.073 0.186|8|
+|model1|-|
 
 
 # Source Code

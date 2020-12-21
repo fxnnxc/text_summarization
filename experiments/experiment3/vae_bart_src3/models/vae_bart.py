@@ -45,6 +45,8 @@ class VaeBART(BARTModel):
         self.lstm_var = nn.GRU(self.n,self.n//2, 2)
         self.z_transform = nn.Linear(self.n//2, self.n)
 
+
+
     def forward(
         self,
         src_tokens,
@@ -67,26 +69,22 @@ class VaeBART(BARTModel):
             return_all_hiddens=return_all_hiddens
         )
 
-        # x = encoder_out['encoder_out'][0]
+        x = encoder_out['encoder_out'][0]
 
-        # x = x.view((x.size(1), x.size(0), x.size(2)))
+        x = x.view((x.size(1), x.size(0), x.size(2)))
         # h0_m = torch.zeros(2, x.size(1), self.n//2, device='cuda').half() # Layer x Batch x hidden
         # h0_v = torch.zeros(2, x.size(1), self.n//2, device='cuda').half() # Layer x Batch x hidden
+        h0_m = torch.zeros(2, x.size(1), self.n//2, device='cuda')# Layer x Batch x hidden
+        h0_v = torch.zeros(2, x.size(1), self.n//2, device='cuda') # Layer x Batch x hidden
 
-        # mu, hn = self.lstm_mu(x, h0_m)
-        # var, hn = self.lstm_var(x, h0_v)
 
-        # z = self.reparameterize(mu[:,-1,:], var[:, -1, : ])     
-        # z = self.z_transform(z)
-        # z = z.unsqueeze(dim=1)
+        mu, hn = self.lstm_mu(x, h0_m)
+        var, hn = self.lstm_var(x, h0_v)
+
+        z1 = self.reparameterize(mu[:,-1,:], var[:, -1, : ])     
+        z1 = self.z_transform(z1)
+        z1 = z1.unsqueeze(dim=1)
         
-        # alpha = 0.5
-
-        # xz = alpha*x+(1-alpha)*z
-        # xz = xz.view((xz.size(1), xz.size(0), xz.size(2)))
-        # encoder_out['encoder_out'][0] = xz
-        
-
         x, extra = self.decoder(
             prev_output_tokens,
             encoder_out=encoder_out,
@@ -96,6 +94,22 @@ class VaeBART(BARTModel):
             src_lengths=src_lengths,
             return_all_hiddens=return_all_hiddens,
         )
+
+        t = extra['inner_states'][-1]
+        t = t.view((t.size(1), t.size(0), t.size(2)))
+        
+        # h0_m2 = torch.zeros(2, t.size(1), self.n//2, device='cuda').half() # Layer x Batch x hidden
+        # h0_v2 = torch.zeros(2, t.size(1), self.n//2, device='cuda').half() # Layer x Batch x hidden
+                
+        h0_m2 = torch.zeros(2, t.size(1), self.n//2, device='cuda') # Layer x Batch x hidden
+        h0_v2 = torch.zeros(2, t.size(1), self.n//2, device='cuda') # Layer x Batch x hidden
+
+        mu2, hn2 = self.lstm_mu(t, h0_m2)
+        var2, hn2 = self.lstm_var(t, h0_v2)
+
+        z2 = self.reparameterize(mu2[:,-1,:], var2[:, -1, : ])     
+        z2 = self.z_transform(z2)
+        z2 = z2.unsqueeze(dim=1)
         
         eos: int = self.eos
         if classification_head_name is not None:
@@ -107,6 +121,12 @@ class VaeBART(BARTModel):
                 if k == classification_head_name:
                     x = head(sentence_representation)
                     break
+
+        extra['mu1'] = mu[:,-1,:]
+        extra['var1'] = var[:,-1,:]
+        extra['mu2'] = mu2[:,-1,:]
+        extra['var2'] = var2[:,-1,:]
+
         return x, extra                                     #), (mu[:,-1,:], var[:, -1, : ])
 
     def reparameterize(self, mu, logvar):

@@ -21,7 +21,7 @@ Get higher ROUGE score than the rouge-score of original bart using latent space 
 # Models
 |index|Structure|info|
 |---|---|---|
-|1|<img src="docs/model1.png" width=500px>|using **GRU(2, 768/2)** for generating z and same **GRU** for generating z1 from encoder and z2 from the decoder(sharing parameters)|
+|1|<img src="docs/model1.png" width=500px>|x = source <br/> x =encoder(x) <br/> z1 = GRU(x) <br/> x = decoder(x, y<t)  <br/>z2 = GRU(x) </br></br>  loss=CE(x, y) </br> KL=DK(N(0,1), z1)+DK(N(0,1), z2) </br> elbo = loss+KL|
 
 
 # Experiment

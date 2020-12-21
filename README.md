@@ -26,10 +26,9 @@
 
 
 ## Literature Riview
-* Text Summarization
-* VAEs
-* Transformer
-* ACL
+* [Text Summarization]()
+* Text Generation using VAE
+
 
 
 # Todo

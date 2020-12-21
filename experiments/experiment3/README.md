@@ -40,12 +40,10 @@ because I thought model architecture is more important than model performance it
 > You can use it **without modification** in the original fairseq code.  
 
 
-|cat|script|info|
+|name|info|
 |:-:|:--|:-:|
-|criterions|kld_loss.py|KL-Divergence loss is defined|
-|models|vae_bart.py|model class|
-|models|hub_interface.py|for sampling. it is sample with BART hub-interface|
-
+|vae_bart_src_mini1|Mini1 experiment code|
+|vae_bart_attn_src|latent variable and multihead attention. <br/> generate z using MLP|
 # 🛩️ Mini Experiments 🛩️
 
 Additional Mini Experiments

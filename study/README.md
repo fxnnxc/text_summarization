@@ -35,7 +35,7 @@
 [![Generic badge](https://img.shields.io/badge/Year-2018-<COLOR>.svg)](https://shields.io/)
 
 
-### [1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
+[1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
 
 ### **Top-k**
 * *Fan et al.,*
@@ -48,9 +48,9 @@
 [![Generic badge](https://img.shields.io/badge/Year-2017-<COLOR>.svg)](https://shields.io/)
 
 
-### [1][PGN] Get To The Point: Summarization with Pointer-Generator Networks
+[1][PGN] Get To The Point: Summarization with Pointer-Generator Networks
 
-### [2] Toward Controlled Generation of Text
+[2] Toward Controlled Generation of Text
 
 
 ---

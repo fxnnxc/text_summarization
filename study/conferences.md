@@ -5,7 +5,17 @@
 3. EMNLP
 4. COLING
 
+--- 
+### Types
 
+* **VAE**(variational autoencoder)
+* **TRF**(Transformer)
+* **ABS**(Abstractive)
+
+### Importance 
+Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
+
+---
 
 ## ACL(Association for Computational Linguistics)
 

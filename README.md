@@ -28,7 +28,7 @@
 
 ## Literature Riview
 * [Text Summarization](https://github.com/fxnnxc/text_summarization/tree/main/study)
-
+* [Conferences]()
 ## Ideas
 Check [Novel Ideas](https://github.com/fxnnxc/text_summarization/tree/main/study/novel_idea) 
 

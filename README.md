@@ -17,10 +17,10 @@
 
 | Index | Info | Stability  <br/> of Code|
 |:-:|:-:|:--|
-|[Experiment1](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment1)|**simple vae-bart** |[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
-|[Experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2)|**simple beta annealing schedule** <br/> BART + beta-VAE GRU with anealing schedule|[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
-|[Experiment3](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3)|**beta annealing schedule types** <br/>BART + beta-VAE | [![All Contributors](https://img.shields.io/badge/build-Semi_Stable-orange)](#contributors-) |
-|[Experiment4](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment4)|**model types**<br/>BART + beta-VAE| [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
+|[Experiment1](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment1)|simple vae-bart |[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
+|[Experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2)|simple beta annealing schedule <br/> BART + beta-VAE GRU |[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
+|[Experiment3](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3)|beta annealing schedule types <br/>BART + beta-VAE | [![All Contributors](https://img.shields.io/badge/build-Semi_Stable-orange)](#contributors-) |
+|[Experiment4](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment4)|model types<br/>BART + beta-VAE| [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
 
 * **make_datafiles.py** : seperate files to speed up inference
 

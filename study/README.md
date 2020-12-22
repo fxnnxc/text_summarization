@@ -30,7 +30,7 @@
 [![Generic badge](https://img.shields.io/badge/Year-2018-<COLOR>.svg)](https://shields.io/)
 
 
-[1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
+[1][VAE] [Semi-Amortized-Variational-Autoencoders](https://github.com/fxnnxc/text_summarization/blob/main/study/2018/Semi-Amortized-Variational-Autoencoders.md)
 
 [2] Top-k
 * *Fan et al.,*

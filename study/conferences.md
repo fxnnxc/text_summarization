@@ -77,17 +77,10 @@
 
 ## COLING(Computational Linguistics)
 
-<<<<<<< HEAD
-<img src="docs/COLING_logo.png" width=300px>
-
-
-### 2020
-=======
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
  
->>>>>>> 00de6c5cac059e560438de41d66c88c5b60a7f64
 |Title|Type|Importance|
 |---|---|---|
 |[LAVA: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization](https://www.aclweb.org/anthology/2020.coling-main.41/)|||

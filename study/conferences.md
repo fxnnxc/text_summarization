@@ -11,6 +11,7 @@
 * **VAE**(variational autoencoder), **BVA**(Beta VAE)
 * **TRF**(Transformer), **RNN**(RNN, LSTM, GRU)
 * **ABS**(Abstractive), **EXT**(Extractive)
+* **TRU**(Truthfulness)
 * **SVY**(Survey)
 
 ### Importance 

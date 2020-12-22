@@ -15,7 +15,7 @@
 * **CLS**(cross Lingual Summarization), **SVY**(Survey) 
 * **CND**(CNN-Daily Mail)
 
-### Relevance
+### Relevance(**R**)
 * Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 
 ---
@@ -30,8 +30,8 @@
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
  
-|Title|Type|Relevance|
-|---|---|---|
+|Title|Type|**R**|
+|---|---|:-:|
 |[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣|
 |[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣|
 |[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣|

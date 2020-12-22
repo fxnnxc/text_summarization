@@ -26,8 +26,7 @@
 
 
 ## Literature Riview
-* [Text Summarization]()
-* Text Generation using VAE
+* [Text Summarization](https://github.com/fxnnxc/text_summarization/tree/main/study)
 
 
 

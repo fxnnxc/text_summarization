@@ -9,6 +9,9 @@
 
 ## ACL(Association for Computational Linguistics)
 
+
+<img src="docs/ACL_logo.png" width=400px>
+
 [Papers](https://www.aclweb.org/anthology/events/acl-2020/#2020-ngt-1)
 
 ### 2020
@@ -55,6 +58,8 @@
 
 ## COLING(Computational Linguistics)
 
+<img src="docs/COLING_logo.png" width=300px>
+
 
 ### 2020
 |Title|Type|Importance|
@@ -68,8 +73,6 @@
 |[Auto-Encoding Variational Bayes for Inferring Topics and Visualization](https://www.aclweb.org/anthology/2020.coling-main.458/)|||
 
 ## AAAI
-
-
 
 ## EMNLP(Empirical Methods in Natural Language Processing)
 

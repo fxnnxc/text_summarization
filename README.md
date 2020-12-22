@@ -11,7 +11,7 @@
 * 12/19 Implementated [Inference bart parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_base_inference_parallel.py)(spped up!)
 * 12/20 [Experiment3-Mini2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3#%EF%B8%8F-mini-experiments-%EF%B8%8F) finished(cyclic annealing) 
 * 12/21 Implementated [Inference bart vae parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_vae_inference_parallel.py)(spped up!)
-
+* 12/22 Close experiment3(There was a problem in the model) and make experiment4
 
 ## Experiments 🥼
 

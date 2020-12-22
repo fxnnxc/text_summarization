@@ -15,39 +15,40 @@
 
 <img src="docs/idea1.jpg" width=300px>
 
+
 ---
 
-## Papers 
-
-|**2020**|
-|---|
+[![Generic badge](https://img.shields.io/badge/Year-2020-<COLOR>.svg)](https://shields.io/)
 
 
+---
 
-|**2019**|
-|---|
+[![Generic badge](https://img.shields.io/badge/Year-2019-<COLOR>.svg)](https://shields.io/)
 
-### [1][VAE]On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation
-* WNGT 2019
+
+
+[1][VAE][WNGT] [On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation](https://github.com/fxnnxc/text_summarization/blob/main/study/2019/On-the-Importance-of-the-Kullback-Leibler-Divergence-Term-in-Variational-Autoencoders-for-Text-Generation.md)
   
-### [2][VAE]VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization**
+[2][VAE] [VAE-PGN based Abstractive model in Multi-stage Archietecture for Text Summarization](https://github.com/fxnnxc/text_summarization/blob/main/study/2019/VAE-PGN%20based%20Abstractive%20model%20in%20Multi-stage%20Archietecture%20for%20Text%20Summarization.md)
 
-### [3][VAE]Cyclic annealing schedule
+[3][VAE] [Cyclic annealing schedule](https://github.com/fxnnxc/text_summarization/blob/main/study/2019/Cyclical%20Annealing%20Schedule.md)
 
 
-### [4]**Nucleus Sampling(NS)**
+[4] **Nucleus Sampling(NS)**
 * *Holtzman et al*
 * Threashold p (p=1 means sampling from the full distribution)
 
-### [5] **BERTSUM: bert-based extractive model**
+[5] **BERTSUM: bert-based extractive model**
 * *Liu*
 * eliminate less important sentences by scoring each sentence in the source text.
 
 
-|**2018**|
-|---|
+---
 
-### [1][VAE][Semi-Amortized-Variational-Autoencoders](#..)
+[![Generic badge](https://img.shields.io/badge/Year-2018-<COLOR>.svg)](https://shields.io/)
+
+
+### [1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
 
 ### **Top-k**
 * *Fan et al.,*
@@ -55,18 +56,20 @@
 ### **word-level content selectino model to focuse on only critical information**
 *Gehrmann et tal.*
 
+---
 
-|**2017**|
-|---|
+[![Generic badge](https://img.shields.io/badge/Year-2017-<COLOR>.svg)](https://shields.io/)
 
-### [1][PGN]Get To The Point: Summarization with Pointer-Generator Networks
+
+### [1][PGN] Get To The Point: Summarization with Pointer-Generator Networks
 
 ### [2] Toward Controlled Generation of Text
 
 
+---
 
-|**2016**|
-|---|
+[![Generic badge](https://img.shields.io/badge/Year-2016-<COLOR>.svg)](https://shields.io/)
+
 
 ### **Vanilla VAE applied to text** 
 * *Bowmman et al.*
@@ -78,13 +81,14 @@
 ### **Copy mechanism**
 * *Gu et al. 2016*
 
+---
 
-|**2015**|
-|---|
+[![Generic badge](https://img.shields.io/badge/Year-2015-<COLOR>.svg)](https://shields.io/)
 
 
-|**2014**|
-|---|
+---
+[![Generic badge](https://img.shields.io/badge/Year-2014-<COLOR>.svg)](https://shields.io/)
+
 
 ### **VAEs**
 * *Kingma and Welling*

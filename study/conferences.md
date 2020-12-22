@@ -11,7 +11,10 @@
 
 [Papers](https://www.aclweb.org/anthology/events/acl-2020/#2020-ngt-1)
 
-### 2020
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
+ </p>
+ 
 |Title|Type|Importance|
 |---|---|---|
 |[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|||
@@ -43,7 +46,11 @@
 |[Semi-supervised Parsing with a Variational Autoencoding Parser](https://www.aclweb.org/anthology/2020.iwpt-1.5/)|||
 |[Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs](https://www.aclweb.org/anthology/2020.acl-main.20/)|||
 
-### 2019
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2019&color=blue&style=flat height=28px>
+ </p>
+ 
+ 
 |Title|Type|Importance|
 |---|---|---|
 |[Semi-supervised Stochastic Multi-Domain Learning using Variational Inference](https://www.aclweb.org/anthology/P19-1186/)|||
@@ -55,8 +62,10 @@
 
 ## COLING(Computational Linguistics)
 
-
-### 2020
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
+ </p>
+ 
 |Title|Type|Importance|
 |---|---|---|
 |[LAVA: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization](https://www.aclweb.org/anthology/2020.coling-main.41/)|||

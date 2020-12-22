@@ -8,17 +8,24 @@
 --- 
 ### Types
 
-* **VAE**(variational autoencoder), **BVA**(Beta VAE)
-* **TRF**(Transformer), **RNN**(RNN, LSTM, GRU), **PGN**(Pointer-Generator Network)
+* **VAE**(just variational autoencoder), **BVA**(Beta VAE, Batch VAE), **NVK**(Non VAE but used KLD)
+* **TRF**(Transformer), **RNN**(RNN, LSTM, GRU), **PGN**(Pointer-Generator Network), **GAN**
 * **ABS**(Abstractive), **EXT**(Extractive)
 * **TRU**(Truthfulness)
-* **CLS**(cross Lingual Summarization), **SVY**(Survey) 
-* **CND**(CNN-Daily Mail)
+* **SUM**(summarization), **SVY**(Survey) 
+* **CNM**(CNN-Daily Mail)
 
-### Relevance(**R**)
+|Extra|Info|
+|---|---|
+|EX1|Cross Lingual Summaization|
+|EX2|Screen to Summarization|
+|EX3|Unsupervised Summarization|
+|EX4|Noise Related|
+
+### Relevance(**R**) with the VAE-Transformer text summarization using CNN-DM data
 Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 * 1️⃣ : irrelevant 
-* 2️⃣ : 
+* 2️⃣ : simliar task 
 * 3️⃣ : same task but different way
 * 4️⃣ : same task and similar way
 * 5️⃣ : Almost Same 
@@ -43,14 +50,14 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 |---|---|:-:|:-:|
 |[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣|🤍|
 |[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣|🤍|
-|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣|💛|
-|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CND|4️⃣|❤️|
-|[Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.172/)||
-|[On Faithfulness and Factuality in Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.173/)|||
-|[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|||
-|[Unsupervised Opinion Summarization with Noising and Denoising](https://www.aclweb.org/anthology/2020.acl-main.175/)|||
-|[Improving Adversarial Text Generation by Modeling the Distant Future](https://www.aclweb.org/anthology/2020.acl-main.227/)|||
-|[A Batch Normalized Inference Network Keeps the KL Vanishing Away](https://www.aclweb.org/anthology/2020.acl-main.235/)|||
+|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, EX1|3️⃣|💛|
+|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CNM|4️⃣|❤️|
+|[Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.172/)|RNN, SUM|2️⃣|🤍|
+|[On Faithfulness and Factuality in Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.173/)|TRU, CNM|2️⃣|❤️
+|[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|NVK, EX2|2️⃣|💛
+|[Unsupervised Opinion Summarization with Noising and Denoising](https://www.aclweb.org/anthology/2020.acl-main.175/)|RNN, EX3, EX4|2️⃣|❤️|
+|[Improving Adversarial Text Generation by Modeling the Distant Future](https://www.aclweb.org/anthology/2020.acl-main.227/)|GAN,RNN|2️⃣|🤍|
+|[A Batch Normalized Inference Network Keeps the KL Vanishing Away](https://www.aclweb.org/anthology/2020.acl-main.235/)|RNN, BVA|3️⃣|❤️|
 |[Topological Sort for Sentence Ordering](https://www.aclweb.org/anthology/2020.acl-main.248/)|||
 |[From Arguments to Key Points: Towards Automatic Argument Summarization](https://www.aclweb.org/anthology/2020.acl-main.371/)|||
 |[A Transformer-based Approach for Source Code Summarization](https://www.aclweb.org/anthology/2020.acl-main.449/)|||

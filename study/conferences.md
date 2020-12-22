@@ -39,12 +39,12 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
  
-|Title|Type|**RU**|
-|---|---|:-:|
-|[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣🤍|
-|[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣🤍|
-|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣💛|
-|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CND|4️⃣❤️|
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
+|[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣|🤍|
+|[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣|🤍|
+|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣|💛|
+|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CND|4️⃣|❤️|
 |[Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.172/)||
 |[On Faithfulness and Factuality in Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.173/)|||
 |[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|||

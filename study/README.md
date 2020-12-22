@@ -37,10 +37,10 @@
 
 [1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
 
-### **Top-k**
+**Top-k**
 * *Fan et al.,*
 
-### **word-level content selectino model to focuse on only critical information**
+**word-level content selectino model to focuse on only critical information**
 *Gehrmann et tal.*
 
 ---
@@ -58,14 +58,14 @@
 [![Generic badge](https://img.shields.io/badge/Year-2016-<COLOR>.svg)](https://shields.io/)
 
 
-### **Vanilla VAE applied to text** 
+**Vanilla VAE applied to text** 
 * *Bowmman et al.*
 
-### **Beta VAE with annealing** 
+**Beta VAE with annealing** 
 * *Bowman et al.*
 * gradually increase the beta term while training.
 
-### **Copy mechanism**
+**Copy mechanism**
 * *Gu et al. 2016*
 
 ---
@@ -77,10 +77,10 @@
 [![Generic badge](https://img.shields.io/badge/Year-2014-<COLOR>.svg)](https://shields.io/)
 
 
-### **VAEs**
+**VAEs**
 * *Kingma and Welling*
 
-### **Generative Adversarial Networks(GANs)**
+**Generative Adversarial Networks(GANs)**
 * *Goodfellow et al.*
 
 
@@ -88,27 +88,27 @@
 
 # Problems 
 
-### **Posterior collapse**
+**Posterior collapse**
 * the inference network produces uniformative latent variables
 
-#### **Sol1.** Modifiying the architecture of the model by weakening decoders
+**Sol1.** Modifiying the architecture of the model by weakening decoders
 * *Bowman et al., 2016; Miao et al., 2015; Yang et al., 2017; Semeniuta et al., 2017;*
 
-#### **Sol2.** Introducing additional connections between the encder and decoder to enforce the dependence between x and z
+**Sol2.** Introducing additional connections between the encder and decoder to enforce the dependence between x and z
 * *Zhao et al., 2017; Goyal et al., 2017; Dieng et al., 2018*
 
 
-#### **Sol3.** Using more flexible or multimodal priors
+**Sol3.** Using more flexible or multimodal priors
 * *Tomczak and Welling, 2017; Xu and Durrett, 2018*
 
-#### **Sol4.** Alternating the training b  on the inference network in the earlier stages
+**Sol4.** Alternating the training b  on the inference network in the earlier stages
 * *He et al., 2019*
 
-#### **Sol5.** Augmenting amortized optimization of VAEs with instance based optimization of stochastic variational inference
+**Sol5.** Augmenting amortized optimization of VAEs with instance based optimization of stochastic variational inference
 * *Kim et al., 2018; Marino et al., 2018*
 
-#### **Sol6.** delta-VAE
+**Sol6.** delta-VAE
 * *Razavi et al., 2019*
 
-#### **Sol7.** beta-VAE
+**Sol7.** beta-VAE
 * *Hig- gins et al., 2017*

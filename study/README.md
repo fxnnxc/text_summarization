@@ -2,7 +2,7 @@
 
 
 
-
+## Papers
 ---
 
 [![Generic badge](https://img.shields.io/badge/Year-2020-<COLOR>.svg)](https://shields.io/)
@@ -21,26 +21,21 @@
 [3][VAE] [Cyclic annealing schedule](https://github.com/fxnnxc/text_summarization/blob/main/study/2019/Cyclical%20Annealing%20Schedule.md)
 
 
-[4] **Nucleus Sampling(NS)**
-* *Holtzman et al*
-* Threashold p (p=1 means sampling from the full distribution)
+[4] Nucleus Sampling(NS)
 
-[5] **BERTSUM: bert-based extractive model**
-* *Liu*
-* eliminate less important sentences by scoring each sentence in the source text.
-
+[5] BERTSUM: bert-based extractive model
 
 ---
 
 [![Generic badge](https://img.shields.io/badge/Year-2018-<COLOR>.svg)](https://shields.io/)
 
 
-### [1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
+[1][VAE] [Semi-Amortized-Variational-Autoencoders](#..)
 
-### **Top-k**
+[2] Top-k
 * *Fan et al.,*
 
-### **word-level content selectino model to focuse on only critical information**
+[3] word-level content selectino model to focuse on only critical information
 *Gehrmann et tal.*
 
 ---
@@ -48,9 +43,9 @@
 [![Generic badge](https://img.shields.io/badge/Year-2017-<COLOR>.svg)](https://shields.io/)
 
 
-### [1][PGN] Get To The Point: Summarization with Pointer-Generator Networks
+[1][PGN] Get To The Point: Summarization with Pointer-Generator Networks
 
-### [2] Toward Controlled Generation of Text
+[2] Toward Controlled Generation of Text
 
 
 ---
@@ -58,14 +53,14 @@
 [![Generic badge](https://img.shields.io/badge/Year-2016-<COLOR>.svg)](https://shields.io/)
 
 
-### **Vanilla VAE applied to text** 
+[1] Vanilla VAE applied to text 
 * *Bowmman et al.*
 
-### **Beta VAE with annealing** 
+[2] Beta VAE with annealing 
 * *Bowman et al.*
 * gradually increase the beta term while training.
 
-### **Copy mechanism**
+[3] Copy mechanism
 * *Gu et al. 2016*
 
 ---
@@ -77,38 +72,17 @@
 [![Generic badge](https://img.shields.io/badge/Year-2014-<COLOR>.svg)](https://shields.io/)
 
 
-### **VAEs**
+[1] VAEs
 * *Kingma and Welling*
 
-### **Generative Adversarial Networks(GANs)**
+[2] Generative Adversarial Networks(GANs)
 * *Goodfellow et al.*
 
 
 ---
 
-# Problems 
+## Problems
 
-### **Posterior collapse**
-* the inference network produces uniformative latent variables
+These are problems occuring at training model. 
 
-#### **Sol1.** Modifiying the architecture of the model by weakening decoders
-* *Bowman et al., 2016; Miao et al., 2015; Yang et al., 2017; Semeniuta et al., 2017;*
-
-#### **Sol2.** Introducing additional connections between the encder and decoder to enforce the dependence between x and z
-* *Zhao et al., 2017; Goyal et al., 2017; Dieng et al., 2018*
-
-
-#### **Sol3.** Using more flexible or multimodal priors
-* *Tomczak and Welling, 2017; Xu and Durrett, 2018*
-
-#### **Sol4.** Alternating the training b  on the inference network in the earlier stages
-* *He et al., 2019*
-
-#### **Sol5.** Augmenting amortized optimization of VAEs with instance based optimization of stochastic variational inference
-* *Kim et al., 2018; Marino et al., 2018*
-
-#### **Sol6.** delta-VAE
-* *Razavi et al., 2019*
-
-#### **Sol7.** beta-VAE
-* *Hig- gins et al., 2017*
+[1] VAE problems

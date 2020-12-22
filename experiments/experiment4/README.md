@@ -15,29 +15,32 @@ A similar experiment with [experiment3](https://github.com/fxnnxc/text_summariza
 
 > Finish Date : 👨‍💻
 
-## Goal
-Now using pretrained model is stable.  train vae-bart fully.
+## Goal 🎯
+Now using pretrained model is stable.
+
+Find **a novel structure** to encode features in the latent space!
 
 
-## Experiment
+## Models 🏎️
+|Index|Graph|info|
+|---|---|---|
+|-|-|-|
+
+## Experiment 🧾
 
 |code|Model|Beta scheduling|Loss|
 |:-:|:-:|:-:|:-:|
 |check_pretrained_model|BART|-|-|
 
 
-## Source Codes
 
+## Source Codes 👨‍💻
 
 |name|info|
 |:-:|:--|
 |inference|script for inference|
 |check_pretrained_model|script to check whether using pretrained model is same with defining new model and upload the parameters|
 
-## Model info
-|Index|Graph|info|
-|---|---|---|
-|-|-|-|
 
 
 

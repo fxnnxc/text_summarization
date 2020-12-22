@@ -8,6 +8,7 @@ I found **a bug** when getting pretrained model and stopped this experiment3.
 <p align="center">
   <a href="https://github.com/pytorch/fairseq"><img src=https://img.shields.io/badge/fairseq-v0.10.1-blue?style=flat height=30px></a> 
   <img src=https://img.shields.io/badge/Python-v3.6.8-green?style=flat&logo=python height=30px></a> 
+  <img src=https://img.shields.io/badge/Experiment-v3-orange?style=flat height=30px></a> 
 </p>
 
 
@@ -19,18 +20,18 @@ Now the experimental codes extend fairseq and I found a better way to build a cl
 
 > Start Date : 2020.12.19
 
-> Finish Date : 👨‍💻
+> Finish Date : 2020.12.23👨‍💻
 
-# Goal
+## Goal
 Get higher ROUGE score than the rouge-score of original bart using latent space in the transformer.
 
-# Models
+## Models
 |index|Structure|info|
 |---|---|---|
 |1|<img src="docs/model1.png" width=500px>|using **GRU(2, 768/2)** for generating z and same **GRU** for generating z1 from encoder and z2 from the decoder(sharing parameters)|
 
 
-# Experiment
+## Experiment
 
 This experiment used bart_base model, not bart_large. 
 because I thought model architecture is more important than model performance itself.  
@@ -41,7 +42,7 @@ because I thought model architecture is more important than model performance it
 |model1|-|
 
 
-# Source Code
+## Source Code
 
 > You can use it **without modification** in the original fairseq code.  
 

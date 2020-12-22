@@ -11,9 +11,8 @@
 A similar experiment with [experiment3](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3) but more stable code.
 
 
-> Start Date : 2020.12.23
-
-> Finish Date : 👨‍💻
+* Start Date : 2020.12.23
+* Finish Date : 👨‍💻
 
 ## Goal 🎯
 Now using pretrained model is stable.

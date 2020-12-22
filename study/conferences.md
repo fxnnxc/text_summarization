@@ -16,8 +16,17 @@
 * **CND**(CNN-Daily Mail)
 
 ### Relevance(**R**)
-* Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
+Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
+* 1️⃣ : irrelevant 
+* 2️⃣ : 
+* 3️⃣ : same task but different way
+* 4️⃣ : same task and similar way
+* 5️⃣ : Almost Same 
 
+### Uesfulness(**U**)
+* 🤍 : useless
+* 💛 : hot potato
+* ❤️ : treasure
 ---
 
 ## ACL(Association for Computational Linguistics)
@@ -30,12 +39,12 @@
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
  
-|Title|Type|**R**|
+|Title|Type|**RU**|
 |---|---|:-:|
-|[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣|
-|[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣|
-|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣|
-|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CND|4️⃣|
+|[Examining the State-of-the-Art in News Timeline Summarization](https://www.aclweb.org/anthology/2020.acl-main.122/)|SVY|1️⃣🤍|
+|[Improving Truthfulness of Headline Generation](https://www.aclweb.org/anthology/2020.acl-main.123/)|TRU|1️⃣🤍|
+|[Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization](https://www.aclweb.org/anthology/2020.acl-main.121/)|PGN, TRF, CLS|3️⃣💛|
+|[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CND|4️⃣❤️|
 |[Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.172/)||
 |[On Faithfulness and Factuality in Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.173/)|||
 |[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|||
@@ -66,7 +75,7 @@
  </p>
  
  
-|Title|Type|Relevance|
+|Title|Type|**RU**|
 |---|---|---|
 |[Semi-supervised Stochastic Multi-Domain Learning using Variational Inference](https://www.aclweb.org/anthology/P19-1186/)|||
 |[Syntax-Infused Variational Autoencoder for Text Generation](https://www.aclweb.org/anthology/P19-1199/)|||
@@ -81,7 +90,7 @@
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
 
-|Title|Type|Relevance|
+|Title|Type|**RU**|
 |---|---|---|
 |[LAVA: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization](https://www.aclweb.org/anthology/2020.coling-main.41/)|||
 |[Variational Autoencoder with Embedded Student-t Mixture Model for Authorship Attribution](https://www.aclweb.org/anthology/2020.coling-main.45/)|||

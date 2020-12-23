@@ -91,6 +91,53 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 |[Improving Abstractive Document Summarization with Salient Information Modeling](https://www.aclweb.org/anthology/P19-1205/)|||
 |[Abstractive Text Summarization Based on Deep Learning and Semantic Content Generalization](https://www.aclweb.org/anthology/P19-1501/)|||
 
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2018&color=blue&style=flat height=28px>
+ </p>
+
+|Title|Type|**RU**|
+|---|---|---|
+[A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss](https://www.aclweb.org/anthology/P18-1013/)
+[Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization](https://www.aclweb.org/anthology/P18-1015/)
+[Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks](https://www.aclweb.org/anthology/P18-1014/)
+[Neural Document Summarization by Jointly Learning to Score and Select Sentences](https://www.aclweb.org/anthology/P18-1061/)
+[Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression and Budgeted Submodular Maximization](https://www.aclweb.org/anthology/P18-1062/)
+[Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting](https://www.aclweb.org/anthology/P18-1063/)
+[Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation](https://www.aclweb.org/anthology/P18-1064/)
+[Global Encoding for Abstractive Summarization](https://www.aclweb.org/anthology/P18-2027/)
+[Unsupervised Semantic Abstractive Summarization](https://www.aclweb.org/anthology/P18-3011/)
+[Reinforced Extractive Summarization with Question-Focused Rewards](https://www.aclweb.org/anthology/P18-3015/)
+[Controllable Abstractive Summarization](https://www.aclweb.org/anthology/W18-2706/)
+[A Structured Variational Autoencoder for Contextual Morphological Inflection](https://www.aclweb.org/anthology/P18-1245/)
+[Variational Inference and Deep Generative Models](https://www.aclweb.org/anthology/P18-5003/)
+[StructVAE: Tree-structured Latent Variable Models for Semi-supervised Semantic Parsing](https://www.aclweb.org/anthology/P18-1070/)
+[Accelerating Neural Transformer via an Average Attention Network](https://www.aclweb.org/anthology/P18-1166/)
+
+
+
+
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2017&color=blue&style=flat height=28px>
+ </p>
+
+|Title|Type|**RU**|
+|---|---|---|
+[Diversity driven attention model for query-based abstractive summarization](https://www.aclweb.org/anthology/P17-1098/)
+[Get To The Point: Summarization with Pointer-Generator Networks](https://www.aclweb.org/anthology/P17-1099/)
+[Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization](https://www.aclweb.org/anthology/P17-1100/)
+[Selective Encoding for Abstractive Sentence Summarization](https://www.aclweb.org/anthology/P17-1101/)
+[Abstractive Document Summarization with a Graph-Based Attentional Neural Model](https://www.aclweb.org/anthology/P17-1108/)
+[Joint Optimization of User-desired Content in Multi-document Summaries by Learning from User Feedback](https://www.aclweb.org/anthology/P17-1124/)
+[A Principled Framework for Evaluating Summarizers: Comparing Models of Summary Quality against Human Judgments](https://www.aclweb.org/anthology/P17-2005/)
+[Oracle Summaries of Compressive Summarization](https://www.aclweb.org/anthology/P17-2043/)
+[Multi-space Variational Encoder-Decoders for Semi-supervised Labeled Sequence Transduction](https://www.aclweb.org/anthology/P17-1029/)
+[Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders](https://www.aclweb.org/anthology/P17-1061/)
+[A Conditional Variational Framework for Dialog Generation](https://www.aclweb.org/anthology/P17-2080/)
+[Variation Autoencoder Based Network Representation Learning for Classification](https://www.aclweb.org/anthology/P17-3010/)
+
+
+---
+
 ## COLING(Computational Linguistics)
 
 <p>

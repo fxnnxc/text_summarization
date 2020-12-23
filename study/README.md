@@ -21,9 +21,9 @@
 
 ## Variational Approach
 
-|Title|**N**|Analysis|
-|---|---|:-:|:-:|:-:|
-|[On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation(2019)](https://arxiv.org/abs/1909.13668)|💛|[📝]()|
+|Title|Keywords|**N**|Analysis|
+|---|---|:-:|:-:|
+|[On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation(2019)](https://arxiv.org/abs/1909.13668)|-|💛|[📝]()|
 
 
 ## Inference

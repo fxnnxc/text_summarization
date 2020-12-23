@@ -26,15 +26,12 @@
 
 
 
-## Materials
+## Literature Reviews
 * [Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) : Study materials for text summarization
 * [Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) : Literature Reivew for textsummarization and VAE
+* [References(not yet)](#)
+
 
 ## Ideas
 Check [Novel Ideas](https://github.com/fxnnxc/text_summarization/tree/main/study/novel_idea) 
 
-
-# Todo
-
-- [ ] Find a good model
-- [ ] Train bart base

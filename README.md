@@ -27,9 +27,22 @@
 
 
 ## Literature Reviews
-* [Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) : Study materials for text summarization
-* [Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) : Literature Reivew for textsummarization and VAE
-* [References(not yet)](#)
+
+### states
+[![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-) : before started
+
+[![All Contributors](https://img.shields.io/badge/gathering-percent-yellow)](#contributors-) : gathering papers
+
+[![All Contributors](https://img.shields.io/badge/evaluate-percent-blue)](#contributors-) : evaluate papers
+
+[![All Contributors](https://img.shields.io/badge/finished-percent-green)](#contributors-) : revision and wrap up
+
+
+|Review Category|Info|State|
+|:-:|:-:|:--|
+[Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) |Study materials for text summarization|[![All Contributors](https://img.shields.io/badge/gathering-40-yellow)](#contributors-)
+[Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) |Literature Reivew for textsummarization and VAE|[![All Contributors](https://img.shields.io/badge/gathering-40-yellow)](#contributors-)
+[References](#)|| [![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-)
 
 
 ## Ideas

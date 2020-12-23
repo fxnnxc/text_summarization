@@ -249,7 +249,9 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2018&color=blue&style=flat height=28px>
  </p>
-
+ 
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
 [Topic-Guided Variational Auto-Encoder for Text Generation](https://www.aclweb.org/anthology/N19-1015/)
 [Riemannian Normalizing Flow on Variational Wasserstein Autoencoder for Text Modeling](https://www.aclweb.org/anthology/N19-1025/)
 [A Variational Approach to Weakly Supervised Document-Level Multi-Aspect Sentiment Classification](https://www.aclweb.org/anthology/N19-1036/)

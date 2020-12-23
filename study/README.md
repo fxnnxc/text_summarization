@@ -17,7 +17,7 @@
 
 |Title|Keywords|**N**|Analysis|
 |---|:-:|:-:|:--:|
-[VAE-PGN based Abstractive Model in Multi-stage Architecture for Text Summarization](https://www.aclweb.org/anthology/W19-8664.pdf)|-|🤍|[📝]()
+[VAE-PGN based Abstractive Model in Multi-stage Architecture for Text Summarization](https://www.aclweb.org/anthology/W19-8664/)|-|🤍|[📝]()
 [Toward Controlled Generation of Text](https://arxiv.org/abs/1703.00955)|-|-|-
 [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)|-|-|-
 

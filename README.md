@@ -5,6 +5,7 @@
 
 # text_summarization
 
+---
 
 ## New
 
@@ -12,6 +13,8 @@
 * 12/20 [Experiment3-Mini2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3#%EF%B8%8F-mini-experiments-%EF%B8%8F) finished(cyclic annealing) 
 * 12/21 Implementated [Inference bart vae parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_vae_inference_parallel.py)(spped up!)
 * 12/22 Close experiment3(There was a problem in the model) and make experiment4
+
+---
 
 ## Experiments 🥼
 
@@ -21,9 +24,6 @@
 |[Experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2)|simple beta annealing schedule <br/> BART + beta-VAE GRU |[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
 |[Experiment3](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3)|beta annealing schedule types <br/>BART + beta-VAE | [![All Contributors](https://img.shields.io/badge/build-Semi_Stable-orange)](#contributors-) |
 |[Experiment4](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment4)|model types<br/>BART + beta-VAE| [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
-
-* **make_datafiles.py** : seperate files to speed up inference
-
 
 
 ## Literature Reviews

@@ -15,12 +15,8 @@
 * **SUM**(summarization), **SVY**(Survey) 
 * **CNM**(CNN-Daily Mail)
 
-|Extra|Info|
-|---|---|
-|EX1|Cross Lingual Summaization|
-|EX2|Screen to Summarization|
-|EX3|Unsupervised Summarization|
-|EX4|Noise Related|
+* *Extra types* are stated at the last section
+
 
 ### Relevance(**R**) with the VAE-Transformer text summarization using CNN-DM data
 Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
@@ -216,12 +212,65 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 [Controllable Text Generation with Focused Variation](https://www.aclweb.org/anthology/2020.findings-emnlp.339/)
 
 
+---
 
 
+## NAACL(North American Chapter of the Association for Computational Linguistics)
+
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2019&color=blue&style=flat height=28px>
+ </p>
+
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
+[Topic-Guided Variational Auto-Encoder for Text Generation](https://www.aclweb.org/anthology/N19-1015/)
+[Riemannian Normalizing Flow on Variational Wasserstein Autoencoder for Text Modeling](https://www.aclweb.org/anthology/N19-1025/)
+[A Variational Approach to Weakly Supervised Document-Level Multi-Aspect Sentiment Classification](https://www.aclweb.org/anthology/N19-1036/)
+[Combining Sentiment Lexica with a Multi-View Variational Autoencoder](https://www.aclweb.org/anthology/N19-1065/)
+[Keyphrase Generation: A Text Summarization Struggle](https://www.aclweb.org/anthology/N19-1070/)
+[Crowdsourcing Lightweight Pyramids for Manual Summary Evaluation](https://www.aclweb.org/anthology/N19-1072/)
+[Fast Concept Mention Grouping for Concept Map-based Multi-Document Summarization](https://www.aclweb.org/anthology/N19-1074/)
+[Modeling Recurrence for Transformer](https://www.aclweb.org/anthology/N19-1122/)
+[Star-Transformer](https://www.aclweb.org/anthology/N19-1133/)
+[Single Document Summarization as Tree Induction](https://www.aclweb.org/anthology/N19-1173/)
+[A Robust Abstractive System for Cross-Lingual Summarization](https://www.aclweb.org/anthology/N19-1204/)
+[Text Generation from Knowledge Graphs with Graph Transformers](https://www.aclweb.org/anthology/N19-1238/)
+[Abstractive Summarization of Reddit Posts with Multi-level Memory Networks](https://www.aclweb.org/anthology/N19-1260/)
+[Automatic learner summary assessment for reading comprehension](https://www.aclweb.org/anthology/N19-1261/)
+[Guiding Extractive Summarization with Question-Answering Rewards](https://www.aclweb.org/anthology/N19-1264/)
+[How Large a Vocabulary Does Text Classification Need? A Variational Approach to Vocabulary Selection](https://www.aclweb.org/anthology/N19-1352/)
+[Recommendations for Datasets for Source Code Summarization](https://www.aclweb.org/anthology/N19-1394/)
+[Question Answering as an Automatic Evaluation Metric for News Article Summarization](https://www.aclweb.org/anthology/N19-1395/)
+[Understanding the Behaviour of Neural Abstractive Summarizers using Contrastive Examples](https://www.aclweb.org/anthology/N19-1396/)
+[Jointly Extracting and Compressing Documents with Summary State Representations](https://www.aclweb.org/anthology/N19-1397/)
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://www.aclweb.org/anthology/N19-1423/)
 
 
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2018&color=blue&style=flat height=28px>
+ </p>
 
-
+[Topic-Guided Variational Auto-Encoder for Text Generation](https://www.aclweb.org/anthology/N19-1015/)
+[Riemannian Normalizing Flow on Variational Wasserstein Autoencoder for Text Modeling](https://www.aclweb.org/anthology/N19-1025/)
+[A Variational Approach to Weakly Supervised Document-Level Multi-Aspect Sentiment Classification](https://www.aclweb.org/anthology/N19-1036/)
+[Combining Sentiment Lexica with a Multi-View Variational Autoencoder](https://www.aclweb.org/anthology/N19-1065/)
+[Keyphrase Generation: A Text Summarization Struggle](https://www.aclweb.org/anthology/N19-1070/)
+[Crowdsourcing Lightweight Pyramids for Manual Summary Evaluation](https://www.aclweb.org/anthology/N19-1072/)
+[Fast Concept Mention Grouping for Concept Map-based Multi-Document Summarization](https://www.aclweb.org/anthology/N19-1074/)
+[Modeling Recurrence for Transformer](https://www.aclweb.org/anthology/N19-1122/)
+[Star-Transformer](https://www.aclweb.org/anthology/N19-1133/)
+[Single Document Summarization as Tree Induction](https://www.aclweb.org/anthology/N19-1173/)
+[A Robust Abstractive System for Cross-Lingual Summarization](https://www.aclweb.org/anthology/N19-1204/)
+[Text Generation from Knowledge Graphs with Graph Transformers](https://www.aclweb.org/anthology/N19-1238/)
+[Abstractive Summarization of Reddit Posts with Multi-level Memory Networks](https://www.aclweb.org/anthology/N19-1260/)
+[Automatic learner summary assessment for reading comprehension](https://www.aclweb.org/anthology/N19-1261/)
+[Guiding Extractive Summarization with Question-Answering Rewards](https://www.aclweb.org/anthology/N19-1264/)
+[How Large a Vocabulary Does Text Classification Need? A Variational Approach to Vocabulary Selection](https://www.aclweb.org/anthology/N19-1352/)
+[Recommendations for Datasets for Source Code Summarization](https://www.aclweb.org/anthology/N19-1394/)
+[Question Answering as an Automatic Evaluation Metric for News Article Summarization](https://www.aclweb.org/anthology/N19-1395/)
+[Understanding the Behaviour of Neural Abstractive Summarizers using Contrastive Examples](https://www.aclweb.org/anthology/N19-1396/)
+[Jointly Extracting and Compressing Documents with Summary State Representations](https://www.aclweb.org/anthology/N19-1397/)
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://www.aclweb.org/anthology/N19-1423/)
 
 
 
@@ -229,3 +278,16 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 
 ## AAAI
 
+
+
+---
+
+
+### Extra Types
+
+|Extra|Info|
+|---|---|
+|EX1|Cross Lingual Summaization|
+|EX2|Screen to Summarization|
+|EX3|Unsupervised Summarization|
+|EX4|Noise Related|

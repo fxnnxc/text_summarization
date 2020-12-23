@@ -34,7 +34,7 @@
 [StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)|||
 [Sample Efficient Text Summarization Using a Single Pre-Trained Transformer](https://arxiv.org/abs/1905.08836)|||
 [Learning by Semantic Similarity Makes Abstractive Summarization Better](https://arxiv.org/abs/2002.07767)|||
-
+[Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833)|||
 
 ## Variational Approach
 
@@ -53,11 +53,10 @@
 [Lagging Inference Networks and Posterior Collapse in Variational Autoencoders](https://arxiv.org/abs/1901.05534)|||
 [Spherical Latent Spaces for Stable Variational Autoencoders](https://arxiv.org/abs/1808.10805)|||
 
-
 ## Inference
 
 |Title|Keywords|**N**|Analysis|
 |---|:-:|:-:|:--:|
-
+[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)|sampling|||
 
 

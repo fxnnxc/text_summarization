@@ -8,7 +8,7 @@
 --- 
 ### Types
 
-* **VAE**(just variational autoencoder), **BVA**(Beta VAE, Batch VAE), **NVK**(Non VAE but used KLD)
+* **VAE**(just variational autoencoder), **BVA**(Beta VAE, Batch VAE), **KLD**(Non VAE but used KLD)
 * **TRF**(Transformer), **RNN**(RNN, LSTM, GRU), **PGN**(Pointer-Generator Network), **GAN**
 * **ABS**(Abstractive), **EXT**(Extractive)
 * **TRU**(Truthfulness)
@@ -54,7 +54,7 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 |[Self-Attention Guided Copy Mechanism for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.125/)|PGN, TRF, CNM|4️⃣|❤️|
 |[Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.172/)|RNN, SUM|2️⃣|🤍|
 |[On Faithfulness and Factuality in Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-main.173/)|TRU, CNM|2️⃣|❤️
-|[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|NVK, EX2|2️⃣|💛
+|[Screenplay Summarization Using Latent Narrative Structure](https://www.aclweb.org/anthology/2020.acl-main.174/)|KLD, EX2|2️⃣|💛
 |[Unsupervised Opinion Summarization with Noising and Denoising](https://www.aclweb.org/anthology/2020.acl-main.175/)|RNN, EX3, EX4|2️⃣|❤️|
 |[Improving Adversarial Text Generation by Modeling the Distant Future](https://www.aclweb.org/anthology/2020.acl-main.227/)|GAN,RNN|2️⃣|🤍|
 |[A Batch Normalized Inference Network Keeps the KL Vanishing Away](https://www.aclweb.org/anthology/2020.acl-main.235/)|RNN, BVA|3️⃣|❤️|

@@ -1,4 +1,52 @@
-# Text Summarization
+# Transformer-VAE Text Summarization
+
+
+
+---
+
+### Necessity(**N**)
+
+* 🤍 : only one or two sentences or simple idea(not main topic)
+* 💛 : must consider it 
+* ❤️ : highly or directly dependent  
+
+---
+
+
+## Models
+
+|Title|Keywords|**N**|Analysis|
+|---|:-:|:-:|:--:|
+
+
+## Variational Approach
+
+|Title|**N**|Analysis|
+|---|---|:-:|:-:|:-:|
+|[On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation(2019)](https://arxiv.org/abs/1909.13668)|💛|[📝]()|
+
+
+## Inference
+
+|Title|Keywords|**N**|Analysis|
+|---|:-:|:-:|:--:|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 
 
 

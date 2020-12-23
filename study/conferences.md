@@ -82,8 +82,8 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
  </p>
  
  
-|Title|Type|**RU**|
-|---|---|---|
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
 |[Semi-supervised Stochastic Multi-Domain Learning using Variational Inference](https://www.aclweb.org/anthology/P19-1186/)|||
 |[Syntax-Infused Variational Autoencoder for Text Generation](https://www.aclweb.org/anthology/P19-1199/)|||
 |[Variational Pretraining for Semi-supervised Text Classification](https://www.aclweb.org/anthology/P19-1590/)|||
@@ -95,8 +95,8 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 <img src=https://img.shields.io/static/v1?label=Year&message=2018&color=blue&style=flat height=28px>
  </p>
 
-|Title|Type|**RU**|
-|---|---|---|
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
 [A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss](https://www.aclweb.org/anthology/P18-1013/)
 [Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization](https://www.aclweb.org/anthology/P18-1015/)
 [Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks](https://www.aclweb.org/anthology/P18-1014/)
@@ -120,8 +120,8 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 <img src=https://img.shields.io/static/v1?label=Year&message=2017&color=blue&style=flat height=28px>
  </p>
 
-|Title|Type|**RU**|
-|---|---|---|
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
 [Diversity driven attention model for query-based abstractive summarization](https://www.aclweb.org/anthology/P17-1098/)
 [Get To The Point: Summarization with Pointer-Generator Networks](https://www.aclweb.org/anthology/P17-1099/)
 [Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization](https://www.aclweb.org/anthology/P17-1100/)
@@ -145,9 +145,9 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>
-
-|Title|Type|**RU**|
-|---|---|---|
+ 
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
 |[LAVA: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization](https://www.aclweb.org/anthology/2020.coling-main.41/)|||
 |[Variational Autoencoder with Embedded Student-t Mixture Model for Authorship Attribution](https://www.aclweb.org/anthology/2020.coling-main.45/)|||
 |[R-VGAE: Relational-variational Graph Autoencoder for Unsupervised Prerequisite Chain Learning](https://www.aclweb.org/anthology/2020.coling-main.99/)|||
@@ -156,7 +156,76 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 |[Improving Variational Autoencoder for Text Modelling with Timestep-Wise Regularisation](https://www.aclweb.org/anthology/2020.coling-main.216/)|||
 |[Auto-Encoding Variational Bayes for Inferring Topics and Visualization](https://www.aclweb.org/anthology/2020.coling-main.458/)|||
 
-## AAAI
+---
 
 ## EMNLP(Empirical Methods in Natural Language Processing)
+
+<p>
+<img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
+ </p>
+
+
+|Title|Type|**R**|**U**|
+|---|---|:-:|:-:|
+[A Spectral Method for Unsupervised Multi-Document Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.32/)
+[What Have We Achieved on Text Summarization?](https://www.aclweb.org/anthology/2020.emnlp-main.33/)
+[Q-learning with Language Model for Edit-based Unsupervised Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.34/)
+[Friendly Topic Assistant for Transformer Based Abstractive Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.35/)
+[Multi-document Summarization with Maximal Marginal Relevance-guided Reinforcement Learning](https://www.aclweb.org/anthology/2020.emnlp-main.136/)
+[Multistage Fusion with Forget Gate for Multimodal Summarization in Open-Domain Videos](https://www.aclweb.org/anthology/2020.emnlp-main.144/)
+[Modeling Content Importance for Summarization with Pre-trained Language Models](https://www.aclweb.org/anthology/2020.emnlp-main.293/)
+[Neural Extractive Summarization with Hierarchical Attentive Heterogeneous Graph Network](https://www.aclweb.org/anthology/2020.emnlp-main.295/)
+[Coarse-to-Fine Query Focused Multi-Document Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.296/)
+[Pre-training for Abstractive Document Summarization by Reinstating Source Text](https://www.aclweb.org/anthology/2020.emnlp-main.297/)
+[Few-Shot Learning for Opinion Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.337/)
+[Learning to Fuse Sentences with Transformers for Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.338/)
+[Stepwise Extractive Summarization and Planning with Structured Transformers](https://www.aclweb.org/anthology/2020.emnlp-main.339/)
+[Factual Error Correction for Abstractive Summarization Models](https://www.aclweb.org/anthology/2020.emnlp-main.506/)
+[Compressive Summarization with Plausibility and Salience Modeling](https://www.aclweb.org/anthology/2020.emnlp-main.507/)
+[Understanding Neural Abstractive Summarization Models via Uncertainty](https://www.aclweb.org/anthology/2020.emnlp-main.508/)
+[Multi-hop Inference for Question-driven Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.547/)
+[TESA: A Task in Entity Semantic Aggregation for Abstractive Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.646/)
+[MLSUM: The Multilingual Summarization Corpus](https://www.aclweb.org/anthology/2020.emnlp-main.647/)
+[Multi-XScience: A Large-scale Dataset for Extreme Multi-document Summarization of Scientific Articles](https://www.aclweb.org/anthology/2020.emnlp-main.648/)
+[Intrinsic Evaluation of Summarization Datasets](https://www.aclweb.org/anthology/2020.emnlp-main.649/)
+[On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://www.aclweb.org/anthology/2020.emnlp-main.748/)
+[Multi-Fact Correction in Abstractive Text Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.749/)
+[Evaluating the Factual Consistency of Abstractive Text Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.750/)
+[Re-evaluating Evaluation in Text Summarization](https://www.aclweb.org/anthology/2020.emnlp-main.751/)
+[Do We Really Need That Many Parameters In Transformer For Extractive Summarization? Discourse Can Help!](https://www.aclweb.org/anthology/2020.codi-1.13/)
+[Artemis: A Novel Annotation Methodology for Indicative Single Document Summarization](https://www.aclweb.org/anthology/2020.eval4nlp-1.8/)
+[Best Practices for Crowd-based Evaluation of German Summarization: Comparing Crowd, Expert and Automatic Evaluation](https://www.aclweb.org/anthology/2020.eval4nlp-1.16/)
+[A Hierarchical Network for Abstractive Meeting Summarization with Cross-Domain Pretraining](https://www.aclweb.org/anthology/2020.findings-emnlp.19/)
+[ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization](https://www.aclweb.org/anthology/2020.findings-emnlp.50/)
+[Conditional Neural Generation using Sub-Aspect Functions for Extractive News Summarization](https://www.aclweb.org/anthology/2020.findings-emnlp.131/)
+[Unsupervised Extractive Summarization by Pre-training Hierarchical Transformers](https://www.aclweb.org/anthology/2020.findings-emnlp.161/)
+[TED: A Pretrained Unsupervised Summarization Model with Theme Modeling and Denoising](https://www.aclweb.org/anthology/2020.findings-emnlp.168/)
+[KLearn: Background Knowledge Inference from Summarization Data](https://www.aclweb.org/anthology/2020.findings-emnlp.188/)
+[Reducing Quantity Hallucinations in Abstractive Summarization](https://www.aclweb.org/anthology/2020.findings-emnlp.203/)
+[Abstractive Multi-Document Summarization via Joint Learning with Single-Document Summarization](https://www.aclweb.org/anthology/2020.findings-emnlp.231/)
+[Towards Zero-Shot Conditional Summarization with Adaptive Multi-Task Fine-Tuning](https://www.aclweb.org/anthology/2020.findings-emnlp.289/)
+[SupMMD: A Sentence Importance Model for Extractive Summarization using Maximum Mean Discrepancy](https://www.aclweb.org/anthology/2020.findings-emnlp.367/)
+[NMF Ensembles? Not for Text Summarization!](https://www.aclweb.org/anthology/2020.insights-1.14/)
+[MAST: Multimodal Abstractive Summarization with Trimodal Hierarchical Attention](https://www.aclweb.org/anthology/2020.nlpbt-1.7/)
+[Sparse Optimization for Unsupervised Extractive Summarization of Long Documents with the Frank-Wolfe Algorithm](https://www.aclweb.org/anthology/2020.sustainlp-1.8/)
+[Variational Hierarchical Dialog Autoencoder for Dialog State Tracking Data Augmentation](https://www.aclweb.org/anthology/2020.emnlp-main.274/)
+[Public Sentiment Drift Analysis Based on Hierarchical Variational Auto-encoder](https://www.aclweb.org/anthology/2020.emnlp-main.307/)
+[Learning Variational Word Masks to Improve the Interpretability of Neural Text Classifiers](https://www.aclweb.org/anthology/2020.emnlp-main.347/)
+[VCDM: Leveraging Variational Bi-encoding and Deep Contextualized Word Representations for Improved Definition Modeling](https://www.aclweb.org/anthology/2020.emnlp-main.513/)
+[Composed Variational Natural Language Generation for Few-shot Intents](https://www.aclweb.org/anthology/2020.findings-emnlp.303/)
+[Controllable Text Generation with Focused Variation](https://www.aclweb.org/anthology/2020.findings-emnlp.339/)
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## AAAI
 

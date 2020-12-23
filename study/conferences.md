@@ -140,6 +140,8 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 
 ## COLING(Computational Linguistics)
 
+<img src="docs/COLING_logo.png" width=300px>
+
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2020&color=blue&style=flat height=28px>
  </p>

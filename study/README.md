@@ -17,6 +17,7 @@
 
 |Title|Keywords|**N**|Analysis|
 |---|:-:|:-:|:--:|
+|[BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)|||
 [VAE-PGN based Abstractive Model in Multi-stage Architecture for Text Summarization](https://www.aclweb.org/anthology/W19-8664/)|-|🤍|[📝]()
 [Toward Controlled Generation of Text](https://arxiv.org/abs/1703.00955)|-|-|-
 [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)|-|-|-

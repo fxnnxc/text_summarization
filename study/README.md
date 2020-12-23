@@ -19,7 +19,7 @@
 |---|:-:|:-:|:--:|
 [VAE-PGN based Abstractive Model in Multi-stage Architecture for Text Summarization](https://www.aclweb.org/anthology/W19-8664.pdf)|-|🤍|[📝]()
 [Toward Controlled Generation of Text](https://arxiv.org/abs/1703.00955)|-|-|-
-[Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf)|-|-|-
+[Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)|-|-|-
 
 
 
@@ -31,7 +31,7 @@
 |Title|Keywords|**N**|Analysis|
 |---|:-:|:-:|:-:|
 |[On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation(2019)](https://arxiv.org/abs/1909.13668)|-|💛|[📝](https://github.com/fxnnxc/text_summarization/blob/main/study/variational/On-the-Importance-of-the-Kullback-Leibler-Divergence-Term-in-Variational-Autoencoders-for-Text-Generation.md)|
-[Cyclical Annealing Schedule:A Simple Approach to Mitigating KL Vanishing](https://arxiv.org/pdf/1903.10145.pdf)|||
+[Cyclical Annealing Schedule:A Simple Approach to Mitigating KL Vanishing](https://arxiv.org/abs/1903.10145)|||
 [Semi-Amortized-Variational-Autoencoders](https://arxiv.org/abs/1802.02550)|||
 
 ## Inference

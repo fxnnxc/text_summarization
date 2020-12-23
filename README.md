@@ -28,14 +28,11 @@
 
 ## Literature Reviews
 
-### states
-[![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-) : before started
-
-[![All Contributors](https://img.shields.io/badge/gathering-percent-yellow)](#contributors-) : gathering papers
-
-[![All Contributors](https://img.shields.io/badge/evaluate-percent-blue)](#contributors-) : evaluate papers
-
-[![All Contributors](https://img.shields.io/badge/finished-percent-green)](#contributors-) : revision and wrap up
+### Missions
+1. [![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-) : before started
+2. [![All Contributors](https://img.shields.io/badge/gathering-percent-yellow)](#contributors-) : gathering papers
+3. [![All Contributors](https://img.shields.io/badge/evaluate-percent-blue)](#contributors-) : evaluate papers
+4. [![All Contributors](https://img.shields.io/badge/finished-percent-green)](#contributors-) : revision and wrap up
 
 
 |Review Category|Info|State|

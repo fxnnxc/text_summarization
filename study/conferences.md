@@ -9,7 +9,7 @@
 ### Types
 
 * **VAE**(just variational autoencoder), **BVA**(Beta VAE, Batch VAE), **KLD**(Non VAE but used KLD)
-* **TRF**(Transformer), **RNN**(RNN, LSTM, GRU), **PGN**(Pointer-Generator Network), **GAN**
+* **TRF**(Transformer), **RNN**(RNN, LSTM, GRU), **PGN**(Pointer-Generator Network), **GAN** , **BRT**(BERT)
 * **ABS**(Abstractive), **EXT**(Extractive)
 * **TRU**(Truthfulness)
 * **SUM**(summarization), **SVY**(Survey) 
@@ -54,24 +54,23 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 |[Unsupervised Opinion Summarization with Noising and Denoising](https://www.aclweb.org/anthology/2020.acl-main.175/)|RNN, EX3, EX4|2|❤️|
 |[Improving Adversarial Text Generation by Modeling the Distant Future](https://www.aclweb.org/anthology/2020.acl-main.227/)|GAN,RNN|2|🤍|
 |[A Batch Normalized Inference Network Keeps the KL Vanishing Away](https://www.aclweb.org/anthology/2020.acl-main.235/)|RNN, BVA|3|❤️|
-|[Topological Sort for Sentence Ordering](https://www.aclweb.org/anthology/2020.acl-main.248/)|||
-|[From Arguments to Key Points: Towards Automatic Argument Summarization](https://www.aclweb.org/anthology/2020.acl-main.371/)|||
-|[A Transformer-based Approach for Source Code Summarization](https://www.aclweb.org/anthology/2020.acl-main.449/)|||
-|[Discourse-Aware Neural Extractive Text Summarization](https://www.aclweb.org/anthology/2020.acl-main.451/)|||
-|[Discrete Optimization for Unsupervised Sentence Summarization with Word-Level Extraction](https://www.aclweb.org/anthology/2020.acl-main.452/)|||
-|[Understanding Points of Correspondence between Sentences for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-srw.26/)|||
-|[On the Encoder-Decoder Incompatibility in Variational Text Modeling and Beyond](https://www.aclweb.org/anthology/2020.acl-main.316/)|
-|[Autoencoding Pixies: Amortised Variational Inference with Graph Convolutions for Functional Distributional Semantics](https://www.aclweb.org/anthology/2020.acl-main.367/)|||
-|[Crossing Variational Autoencoders for Answer Retrieval](https://www.aclweb.org/anthology/2020.acl-main.498/)|||
-|[Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder](https://www.aclweb.org/anthology/2020.acl-main.544/)|||
-|[Interpretable Operational Risk Classification with Semi-Supervised Variational Autoencoder](https://www.aclweb.org/anthology/2020.acl-main.78/)|||
-|[Pre-train and Plug-in: Flexible Conditional Text Generation with Variational Auto-Encoders](https://www.aclweb.org/anthology/2020.acl-main.23/)|||
-|[Guiding Variational Response Generator to Exploit Persona](https://www.aclweb.org/anthology/2020.acl-main.7/)|||
-|[Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder](https://www.aclweb.org/anthology/2020.acl-main.544/)|||
-|[Variational Neural Machine Translation with Normalizing Flows](https://www.aclweb.org/anthology/2020.acl-main.694/)|||
-|[Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation](https://www.aclweb.org/anthology/people/a/arya-d-mccarthy/)|||
-|[Semi-supervised Parsing with a Variational Autoencoding Parser](https://www.aclweb.org/anthology/2020.iwpt-1.5/)|||
-|[Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs](https://www.aclweb.org/anthology/2020.acl-main.20/)|||
+|[Topological Sort for Sentence Ordering](https://www.aclweb.org/anthology/2020.acl-main.248/)|-|1|💛|
+|[From Arguments to Key Points: Towards Automatic Argument Summarization](https://www.aclweb.org/anthology/2020.acl-main.371/)|-|1|🤍|
+|[A Transformer-based Approach for Source Code Summarization](https://www.aclweb.org/anthology/2020.acl-main.449/)|TRF|2|💛|
+|[Discourse-Aware Neural Extractive Text Summarization](https://www.aclweb.org/anthology/2020.acl-main.451/)|-|1|🤍|
+|[Discrete Optimization for Unsupervised Sentence Summarization with Word-Level Extraction](https://www.aclweb.org/anthology/2020.acl-main.452/)|BERT|2|💛|
+|[Understanding Points of Correspondence between Sentences for Abstractive Summarization](https://www.aclweb.org/anthology/2020.acl-srw.26/)|TRU,TRF|1|💛|
+|[On the Encoder-Decoder Incompatibility in Variational Text Modeling and Beyond](https://www.aclweb.org/anthology/2020.acl-main.316/)|VAE|2|❤️
+|[Autoencoding Pixies: Amortised Variational Inference with Graph Convolutions for Functional Distributional Semantics](https://www.aclweb.org/anthology/2020.acl-main.367/)|BRT, VAE|2|❤️
+|[Crossing Variational Autoencoders for Answer Retrieval](https://www.aclweb.org/anthology/2020.acl-main.498/)|VAE in QA|2|❤️
+|[Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder](https://www.aclweb.org/anthology/2020.acl-main.544/)|VAE, informatino inject|1|🤍
+|[Interpretable Operational Risk Classification with Semi-Supervised Variational Autoencoder](https://www.aclweb.org/anthology/2020.acl-main.78/)|RNN, VAE|1|🤍
+|[Pre-train and Plug-in: Flexible Conditional Text Generation with Variational Auto-Encoders](https://www.aclweb.org/anthology/2020.acl-main.23/)|RNN, plug-in VAE|3|❤️
+|[Guiding Variational Response Generator to Exploit Persona](https://www.aclweb.org/anthology/2020.acl-main.7/)|LSTM, VAE|3|❤️
+|[Variational Neural Machine Translation with Normalizing Flows](https://www.aclweb.org/anthology/2020.acl-main.694/)|VAE, TRF|4|❤️
+|[Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation](https://www.aclweb.org/anthology/2020.acl-main.753/)|VAE, TRF|5|❤️
+|[Semi-supervised Parsing with a Variational Autoencoding Parser](https://www.aclweb.org/anthology/2020.iwpt-1.5/)|형태소레벨|2|💛|
+|[Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs](https://www.aclweb.org/anthology/2020.acl-main.20/)|Hierarchical VAE, BERT, QA|2|💛
 
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2019&color=blue&style=flat height=28px>

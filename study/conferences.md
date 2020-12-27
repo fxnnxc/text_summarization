@@ -79,12 +79,12 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
  
 |Title|Type|**R**|**U**|
 |---|---|:-:|:-:|
-|[Semi-supervised Stochastic Multi-Domain Learning using Variational Inference](https://www.aclweb.org/anthology/P19-1186/)|||
-|[Syntax-Infused Variational Autoencoder for Text Generation](https://www.aclweb.org/anthology/P19-1199/)|||
-|[Variational Pretraining for Semi-supervised Text Classification](https://www.aclweb.org/anthology/P19-1590/)|||
-|[Auto-Encoding Variational Neural Machine Translation](https://www.aclweb.org/anthology/W19-4315/)|||
-|[Improving Abstractive Document Summarization with Salient Information Modeling](https://www.aclweb.org/anthology/P19-1205/)|||
-|[Abstractive Text Summarization Based on Deep Learning and Semantic Content Generalization](https://www.aclweb.org/anthology/P19-1501/)|||
+|[Semi-supervised Stochastic Multi-Domain Learning using Variational Inference](https://www.aclweb.org/anthology/P19-1186/)|Semi-Sup. VAE|2|💛
+|[Syntax-Infused Variational Autoencoder for Text Generation](https://www.aclweb.org/anthology/P19-1199/)|형태소레벨|1|🤍
+|[Variational Pretraining for Semi-supervised Text Classification](https://www.aclweb.org/anthology/P19-1590/)|Bag of Words, Good Experience Setting, VAE|2|🤍|
+|[Auto-Encoding Variational Neural Machine Translation](https://www.aclweb.org/anthology/W19-4315/)|VAE, NMT|2|🤍
+|[Improving Abstractive Document Summarization with Salient Information Modeling](https://www.aclweb.org/anthology/P19-1205/)|sailent network, CNN, CNN-DM|3|💛
+|[Abstractive Text Summarization Based on Deep Learning and Semantic Content Generalization](https://www.aclweb.org/anthology/P19-1501/)|Liguistic, more information|2|🤍
 
 <p>
 <img src=https://img.shields.io/static/v1?label=Year&message=2018&color=blue&style=flat height=28px>

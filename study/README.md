@@ -44,7 +44,7 @@
 [Cyclical Annealing Schedule:A Simple Approach to Mitigating KL Vanishing](https://arxiv.org/abs/1903.10145)|||
 [Semi-Amortized-Variational-Autoencoders](https://arxiv.org/abs/1802.02550)|||
 [Isolating Sources of Disentanglement in Variational Autoencoders](https://arxiv.org/abs/1802.04942)|||
-[https://arxiv.org/abs/1812.02833](https://arxiv.org/abs/1812.02833)|||
+[Disentangling Disentanglement in Variational Autoencoders](https://arxiv.org/abs/1812.02833)|||
 [InfoVAE: Information Maximizing Variational Autoencoders](https://arxiv.org/abs/1706.02262)|||
 [VAE with a VampPrior](https://arxiv.org/abs/1705.07120)|||
 [Iterative Amortized Inference](https://arxiv.org/abs/1807.09356)|||

@@ -9,6 +9,7 @@
 * 12/21 Implementated [Inference bart vae parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_vae_inference_parallel.py)(spped up!)
 * 12/22 Close experiment3(There was a problem in the model) and make experiment4
 * 12/23 Make Literature Review Category
+* 12/24 Gathered all papers
 ---
 
 ## Experiments 🥼

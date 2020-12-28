@@ -41,7 +41,7 @@
 [Sample Efficient Text Summarization Using a Single Pre-Trained Transformer](https://arxiv.org/abs/1905.08836)|||
 [Learning by Semantic Similarity Makes Abstractive Summarization Better](https://arxiv.org/abs/2002.07767)|||
 [Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833)|||
-
+[Deep Transformers with Latent Depth](https://arxiv.org/abs/2009.13102)|latent for selecting layer, Tranformer, VAE|4|❤️|
 ## Variational Approach
 
 |Title|Keywords|**N**|Analysis|
@@ -50,7 +50,7 @@
 [Cyclical Annealing Schedule:A Simple Approach to Mitigating KL Vanishing](https://arxiv.org/abs/1903.10145)|||
 [Semi-Amortized-Variational-Autoencoders](https://arxiv.org/abs/1802.02550)|||
 [Isolating Sources of Disentanglement in Variational Autoencoders](https://arxiv.org/abs/1802.04942)|||
-[https://arxiv.org/abs/1812.02833](https://arxiv.org/abs/1812.02833)|||
+[Disentangling Disentanglement in Variational Autoencoders](https://arxiv.org/abs/1812.02833)|||
 [InfoVAE: Information Maximizing Variational Autoencoders](https://arxiv.org/abs/1706.02262)|||
 [VAE with a VampPrior](https://arxiv.org/abs/1705.07120)|||
 [Iterative Amortized Inference](https://arxiv.org/abs/1807.09356)|||

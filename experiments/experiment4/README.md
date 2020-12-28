@@ -20,17 +20,13 @@ Now using pretrained model is stable.
 Find **a novel structure** to encode features in the latent space!
 
 
-## Models 🏎️
-|Index|Graph|info|
-|---|---|---|
-|-|-|-|
 
-## Experiment 🧾
+## Experiments 🧾
 
-|code|Model|Beta scheduling|Loss|
-|:-:|:-:|:-:|:-:|
+|code|Model|Beta scheduling|Loss|ROUGE|
+|:-:|:-:|:-:|:-:|:-:|
 |check_pretrained_model|BART|-|-|
-
+|[simple_vae2](simple_vae2)|-|300||
 
 
 ## Source Codes 👨‍💻
@@ -39,10 +35,21 @@ Find **a novel structure** to encode features in the latent space!
 |:-:|:--|
 |inference|script for inference|
 |check_pretrained_model|script to check whether using pretrained model is same with defining new model and upload the parameters|
-
+|[simple_vae2](simple_vae2)|multihead attetion and annealing 300|
 
 
 
 # 🛩️ Mini Experiments 🛩️
 
 brief test and results
+
+|Name|info|
+|:-:|:-:|
+|[print_gradient](print_gradient)|print gradient for specific layer|
+
+## Print Gradient
+
+|Mu aggregate type|image|
+|---|---|
+|mean|<img src="docs/grad1.png" width=400px> |
+|abs mean| <img src="docs/grad2.png" width=400px>| 

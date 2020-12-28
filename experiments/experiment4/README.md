@@ -23,9 +23,9 @@ Find **a novel structure** to encode features in the latent space!
 
 ## Experiments 🧾
 
-|code|Model|Beta scheduling|Loss||
+|code|Model|Beta scheduling|Loss|ROUGE|
 |:-:|:-:|:-:|:-:|:-:|
-|check_pretrained_model|BART|-|-|ROUGE|
+|check_pretrained_model|BART|-|-|
 |[simple_vae2](simple_vae2)|-|300||
 
 
@@ -35,7 +35,7 @@ Find **a novel structure** to encode features in the latent space!
 |:-:|:--|
 |inference|script for inference|
 |check_pretrained_model|script to check whether using pretrained model is same with defining new model and upload the parameters|
-|[simple_vae2](simple_vae2)|-|multihead attetion and annealing 300|
+|[simple_vae2](simple_vae2)|multihead attetion and annealing 300|
 
 
 

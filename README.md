@@ -34,8 +34,8 @@
 
 |Review Category|Info|State|
 |:-:|:-:|:--|
-[Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) |Study materials for text summarization|[![All Contributors](https://img.shields.io/badge/gathering-40-yellow)](#contributors-)
-[Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) |Literature Reivew for textsummarization and VAE|[![All Contributors](https://img.shields.io/badge/evaluate-0-blue)](#contributors-)
+[Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) |Study materials for text summarization|[![All Contributors](https://img.shields.io/badge/evaluate-0-blue)](#contributors-)
+[Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) |Literature Reivew for textsummarization and VAE|[![All Contributors](https://img.shields.io/badge/evaluate-30-blue)](#contributors-)
 [References](#)|| [![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-)
 
 ---

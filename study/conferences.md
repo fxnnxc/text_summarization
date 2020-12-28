@@ -92,21 +92,21 @@ Low 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ High
 
 |Title|Type|**R**|**U**|
 |---|---|:-:|:-:|
-[A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss](https://www.aclweb.org/anthology/P18-1013/)
-[Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization](https://www.aclweb.org/anthology/P18-1015/)
-[Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks](https://www.aclweb.org/anthology/P18-1014/)
-[Neural Document Summarization by Jointly Learning to Score and Select Sentences](https://www.aclweb.org/anthology/P18-1061/)
-[Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression and Budgeted Submodular Maximization](https://www.aclweb.org/anthology/P18-1062/)
-[Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting](https://www.aclweb.org/anthology/P18-1063/)
-[Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation](https://www.aclweb.org/anthology/P18-1064/)
-[Global Encoding for Abstractive Summarization](https://www.aclweb.org/anthology/P18-2027/)
-[Unsupervised Semantic Abstractive Summarization](https://www.aclweb.org/anthology/P18-3011/)
-[Reinforced Extractive Summarization with Question-Focused Rewards](https://www.aclweb.org/anthology/P18-3015/)
-[Controllable Abstractive Summarization](https://www.aclweb.org/anthology/W18-2706/)
-[A Structured Variational Autoencoder for Contextual Morphological Inflection](https://www.aclweb.org/anthology/P18-1245/)
-[Variational Inference and Deep Generative Models](https://www.aclweb.org/anthology/P18-5003/)
-[StructVAE: Tree-structured Latent Variable Models for Semi-supervised Semantic Parsing](https://www.aclweb.org/anthology/P18-1070/)
-[Accelerating Neural Transformer via an Average Attention Network](https://www.aclweb.org/anthology/P18-1166/)
+[A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss](https://www.aclweb.org/anthology/P18-1013/)|extract, PGN,RNN, diff loss|2|💛
+[Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization](https://www.aclweb.org/anthology/P18-1015/)|RNN, template based | 2 |💛
+[Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks](https://www.aclweb.org/anthology/P18-1014/)|SWAP-NET, PGN |2 |💛 
+[Neural Document Summarization by Jointly Learning to Score and Select Sentences](https://www.aclweb.org/anthology/P18-1061/)|graph|2 |💛
+[Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression and Budgeted Submodular Maximization](https://www.aclweb.org/anthology/P18-1062/)|graph |2|❤️
+[Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting](https://www.aclweb.org/anthology/P18-1063/)|RNN, RL guided PGN|2|💛
+[Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation](https://www.aclweb.org/anthology/P18-1064/)|RNN, attention, multi-task|1|🤍|
+[Global Encoding for Abstractive Summarization](https://www.aclweb.org/anthology/P18-2027/)|RNN, remove repetition|2|🤍
+[Unsupervised Semantic Abstractive Summarization](https://www.aclweb.org/anthology/P18-3011/)|Bag of words, Graph|1|🤍
+[Reinforced Extractive Summarization with Question-Focused Rewards](https://www.aclweb.org/anthology/P18-3015/)|RL|-|-
+[Controllable Abstractive Summarization](https://www.aclweb.org/anthology/W18-2706/)|SVY|-|-
+[A Structured Variational Autoencoder for Contextual Morphological Inflection](https://www.aclweb.org/anthology/P18-1245/)|-|-|-
+[Variational Inference and Deep Generative Models](https://www.aclweb.org/anthology/P18-5003/)|-|-|-|
+[StructVAE: Tree-structured Latent Variable Models for Semi-supervised Semantic Parsing](https://www.aclweb.org/anthology/P18-1070/)|graph, choose action|3|❤️|
+[Accelerating Neural Transformer via an Average Attention Network](https://www.aclweb.org/anthology/P18-1166/)|transformer, average attention|2|❤️
 
 
 

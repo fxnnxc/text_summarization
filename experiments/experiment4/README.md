@@ -46,3 +46,10 @@ brief test and results
 |Name|info|
 |:-:|:-:|
 |[print_gradient](print_gradient)|print gradient for specific layer|
+
+## Print Gradient
+
+|Mu aggregate type|image|
+|---|---|
+|mean|<img src="docs/grad1.png" width=400px> |
+|abs mean| <img src="docs/grad2.png" width=400px>| 

@@ -10,6 +10,7 @@
 * 12/22 Close experiment3(There was a problem in the model) and make experiment4
 * 12/23 Make Literature Review Category
 * 12/24 Gathered all papers
+* 12/28 Experiment4 setting 
 ---
 
 ## Experiments 🥼

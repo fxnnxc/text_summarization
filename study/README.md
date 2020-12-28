@@ -11,7 +11,13 @@
 * ❤️ : highly or directly dependent  
 
 ---
+## Transformer based VAE
+|Title|Keywords|Relevance|
+|:-:|:-:|:--:|
+|[A Transformer-Based Variational Autoencoder for Sentence Generation](https://ieeexplore.ieee.org/abstract/document/8852155?casa_token=_m87WmRnj30AAAAA:n_MNkO5jmA1dufBZ_-zTu6ze4kydB6cPuZkEqmZXx8GeterhQjJti7UQ6NTu_gfv3tXB3ECaNw)||
 
+
+---
 
 ## Models
 

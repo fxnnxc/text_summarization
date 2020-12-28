@@ -35,7 +35,7 @@
 [Sample Efficient Text Summarization Using a Single Pre-Trained Transformer](https://arxiv.org/abs/1905.08836)|||
 [Learning by Semantic Similarity Makes Abstractive Summarization Better](https://arxiv.org/abs/2002.07767)|||
 [Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833)|||
-
+[Deep Transformers with Latent Depth](https://arxiv.org/abs/2009.13102)|latent for selecting layer, Tranformer, VAE|4|❤️|
 ## Variational Approach
 
 |Title|Keywords|**N**|Analysis|

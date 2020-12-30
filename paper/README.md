@@ -5,28 +5,31 @@
 
 ## Introduction brench
 
-### Text Summarization brench
+1. Text Summarization brench
 
-one paper before transformer : 
-using transformer :
- + variations  :  
---> I want Encode the global information!!!!
-### Variational brench
+        one paper before transformer : 
+        using transformer :
+        + variations  :  
+        --> I want Encode the global information!!!!
+        
+2. Variational brench
 
-VAE
-beta-VAE : 
-annealing schedules  : at least 2 
---> KL Vanishing!!!
-### ELBO analysis : 
-InfoVAE, ELBO surgery, Enhancing Variational Autoencoders with Mutual Information Neural Estimation for Text Generation
---> What is current?
+        VAE
+        beta-VAE : 
+        annealing schedules  : at least 2 
+        --> KL Vanishing!!!     
+3. ELBO analysis 
+ 
+        InfoVAE, ELBO surgery, Enhancing Variational Autoencoders with Mutual Information Neural Estimation for Text Generation
+        --> What is current?
 
-### CVAE(two papers : Improved Variational Neural Machine Translation by Promoting Mutual Information )
-Two papers without transformer 
-using transformer 
+4. CVAE(two papers : Improved Variational Neural Machine Translation by Promoting Mutual Information )
 
---> What is good approach for the Text Summarization
+        Two papers without transformer 
+        using transformer 
 
-### Ours~!!
+        --> What is good approach for the Text Summarization
+
+        Ours~!!
 
 ---

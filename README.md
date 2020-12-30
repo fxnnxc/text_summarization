@@ -1,6 +1,21 @@
 # Text Summarization
 
 ---
+## Work Schedule
+
+- [ ] 12/31 : End Literature Review
+- [ ] 1/8 : End Training + First result
+- [ ] 1/10 : START abstract FINISH abstract
+- [ ] 1/11 : START full paper
+- [ ] 1/13 : IJCAI abstract submission due
+- [ ] 1/17 : End training + final result
+- [ ] 1/18 : End full paper 
+- [ ] 1/20 : IJCAI Full paper submission due
+
+### [Inforamtion about paper](paper)
+
+
+---
 
 ## New
 
@@ -12,6 +27,9 @@
 * 12/24 Gathered all papers
 * 12/28 Experiment4 setting 
 ---
+
+
+
 
 ## Experiments 🥼
 

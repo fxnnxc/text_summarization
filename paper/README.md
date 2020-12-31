@@ -5,39 +5,38 @@
 
 ## Introduction branch
 
-1. Text Summarization branch
+1. **Text Summarization branch**
 
-- [X]  Get To The Point: Summarization with Pointer-Generator Networks
-- [X] BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
+* Get To The Point: Summarization with Pointer-Generator Networks
+* BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
 	
-- [X] ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training
-- [X] PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
+* ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training
+* PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
         
         
-2. Variational branch
+2. **Variational branch**
 
-- [X] Auto-Encoding Variational Bayes
+* Auto-Encoding Variational Bayes
         VAE
         beta-VAE : 
         KL vanish problem. 
         annealing schedules  : at least 2 
-- [X] beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework
-- [X] Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing
+* beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework
+* Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing
 
 
-3. ELBO analysis 
+3. **ELBO analysis**
 
-- [X]InfoVAE: Information Maximizing Variational Autoencoders
-- [X]ELBO surgery: yet another way to carve up the variational evidence lower bound
-- [X] Enhancing Variational Autoencoders with Mutual Information Neural Estimation for Text Generation
+* InfoVAE: Information Maximizing Variational Autoencoders
+* ELBO surgery: yet another way to carve up the variational evidence lower bound
+* Enhancing Variational Autoencoders with Mutual Information Neural Estimation for Text Generation
 
-4. CVAE(two papers : Improved Variational Neural Machine Translation by Promoting Mutual Information )
+4. **CVAE**
 
-- [X] CVAE : Learning structured output representation using deep conditional generative models
-
-- [X] A Transformer-Based Variational Autoencoder for Sentence Generation
-- [X] T-CVAE: Transformer-Based Conditioned Variational Autoencoder for Story Completion
-
+* CVAE : Learning structured output representation using deep conditional generative models
+* A Transformer-Based Variational Autoencoder for Sentence Generation
+* T-CVAE: Transformer-Based Conditioned Variational Autoencoder for Story Completion
+*  Improved Variational Neural Machine Translation by Promoting Mutual Information
 
 ## Story
 

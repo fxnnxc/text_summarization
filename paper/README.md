@@ -17,15 +17,11 @@
 2. **Variational branch**
 
 * Auto-Encoding Variational Bayes
-        VAE
-        beta-VAE : 
-        KL vanish problem. 
-        annealing schedules  : at least 2 
 * beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework
 * Cyclical Annealing Schedule: A Simple Approach to Mitigating KL Vanishing
 
 
-3. **ELBO analysis**
+1. **ELBO analysis**
 
 * InfoVAE: Information Maximizing Variational Autoencoders
 * ELBO surgery: yet another way to carve up the variational evidence lower bound

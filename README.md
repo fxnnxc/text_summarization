@@ -3,7 +3,10 @@
 ---
 ## Work Schedule
 
-- [ ] 12/31 : End Literature Review
+
+<img src="docs/schedule.png" width=700px>
+
+- [X] 12/31 : End Literature Review
 - [ ] 1/8 : End Training + First result
 - [ ] 1/10 : START abstract FINISH abstract
 - [ ] 1/11 : START full paper

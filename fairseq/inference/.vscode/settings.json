@@ -1,0 +1,4 @@
+{
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "/home/bumjin/anaconda3/envs/torch/bin/python"
+}

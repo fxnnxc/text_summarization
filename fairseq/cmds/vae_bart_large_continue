@@ -1,0 +1,45 @@
+BART_PATH=checkpoints/bart.large/model.pt
+RESTORE_FILE=checkpoints/checkpoint_1_20000vae2_fp32_update_10000.pt
+USERDIR=custom/simple_vae2
+CHECKPOINT_SUFFIX=vae_12_30_09
+ARCH=simple_vae_bart_large
+TASK=simple_vae_translation
+CRITERION=kld_loss
+
+TOTAL_NUM_UPDATES=20000
+WARMUP_UPDATES=500      
+LR=3e-05
+MAX_TOKENS=2048
+UPDATE_FREQ=4
+SAVE_INTERVAL=1
+SAVE_INTERVAL_UPDATES=5000
+MAX_EPOCH=2
+
+CUDA_VISIBLE_DEVICES=3 python train.py data/cnn_dm-large-bin \
+    --user-dir $USERDIR  \
+    --arch $ARCH \
+    --restore-file $RESTORE_FILE \
+    --pretrained \
+    --pretrained-checkpoint $BART_PATH \
+    --max-tokens $MAX_TOKENS \
+    --task $TASK \
+    --source-lang source --target-lang target \
+    --truncate-source \
+    --layernorm-embedding \
+    --share-all-embeddings \
+    --share-decoder-input-output-embed \
+    --reset-optimizer --reset-dataloader --reset-meters \
+    --required-batch-size-multiple 1 \
+    --criterion $CRITERION \
+    --label-smoothing 0.1 \
+    --dropout 0.1 --attention-dropout 0.1 \
+    --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
+    --weight-decay 0.01 --optimizer adam --adam-betas "(0.9, 0.999)" --adam-eps 1e-08 \
+    --clip-norm 0.1 \
+    --update-freq $UPDATE_FREQ \
+    --skip-invalid-size-inputs-valid-test \
+    --find-unused-parameters \
+    --save-interval-updates $SAVE_INTERVAL_UPDATES \
+    --checkpoint-suffix $CHECKPOINT_SUFFIX \
+    --max-epoch $MAX_EPOCH ;
+

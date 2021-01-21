@@ -4,19 +4,7 @@
 ## Work Schedule
 
 
-<img src="docs/schedule.png" width=700px>
-
-- [X] 12/31 : End Literature Review
-- [ ] 1/8 : End Training + First result
-- [ ] 1/10 : START abstract FINISH abstract
-- [ ] 1/11 : START full paper
-- [ ] 1/13 : IJCAI abstract submission due
-- [ ] 1/17 : End training + final result
-- [ ] 1/18 : End full paper 
-- [ ] 1/20 : IJCAI Full paper submission due
-
 ### [Inforamtion about paper](paper)
-
 ### [ACL](https://2021.aclweb.org/)
 ### [IJCAI](https://ijcai-21.org/)
 ---
@@ -32,9 +20,6 @@
 * 12/28 Experiment4 setting 
 ---
 
-
-
-
 ## Experiments 🥼
 
 | Index | Info | Stability  <br/> of Code|
@@ -48,21 +33,8 @@
 
 ## Literature Reviews
 
-### Missions
-1. [![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-) : before started
-2. [![All Contributors](https://img.shields.io/badge/gathering-percent-yellow)](#contributors-) : gathering papers
-3. [![All Contributors](https://img.shields.io/badge/evaluate-percent-blue)](#contributors-) : evaluate papers
-4. [![All Contributors](https://img.shields.io/badge/finished-percent-green)](#contributors-) : revision and wrap up
-
-
 |Review Category|Info|State|
 |:-:|:-:|:--|
 [Text Summarization Study](https://github.com/fxnnxc/text_summarization/tree/main/study) |Study materials for text summarization|[![All Contributors](https://img.shields.io/badge/evaluate-0-blue)](#contributors-)
 [Conferences](https://github.com/fxnnxc/text_summarization/blob/main/study/conferences.md) |Literature Reivew for textsummarization and VAE|[![All Contributors](https://img.shields.io/badge/evaluate-30-blue)](#contributors-)
 [References](#)|| [![All Contributors](https://img.shields.io/badge/state-before_start-red)](#contributors-)
-
----
-
-## Ideas
-Check [Novel Ideas](https://github.com/fxnnxc/text_summarization/tree/main/study/novel_idea) 
-

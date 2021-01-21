@@ -1,1 +1,0 @@
-# Text Summarization History 

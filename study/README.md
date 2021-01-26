@@ -1,7 +1,5 @@
 # Transformer-VAE Text Summarization
 
-
-
 ---
 
 ### Necessity(**N**)

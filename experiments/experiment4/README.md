@@ -6,7 +6,7 @@
 
 ## Goal:Train the transformer with additional module
 - [X] Minimize the impact of the latent variable 
-- [] Additional module to the transformer architecture to improve the summarization quality 
+- [ ] Additional module to the transformer architecture to improve the summarization quality 
 - [X] Change the sequence generator code to apply additional module when inference. 
 
 * Model

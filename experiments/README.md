@@ -1,17 +1,17 @@
 - [Experiments](#experiments)
-  - [🧚‍♂️ : Train freezed BART with addtional moudule](#️--train-freezed-bart-with-addtional-moudule)
-    - [1. Is learning rate important?](#1-is-learning-rate-important)
-    - [2. Train with addtional path from encoder and use it only for the first word.](#2-train-with-addtional-path-from-encoder-and-use-it-only-for-the-first-word)
+  - [🏰 : Train freezed BART with addtional moudule](#--train-freezed-bart-with-addtional-moudule)
+    - [🧙‍♂️ 1. Is learning rate important?](#️-1-is-learning-rate-important)
+    - [🧙‍♂️ 2. Train with addtional path from encoder and use it only for the first word.](#️-2-train-with-addtional-path-from-encoder-and-use-it-only-for-the-first-word)
 
 
 # Experiments
 
-## 🧚‍♂️ : Train freezed BART with addtional moudule
+## 🏰 : Train freezed BART with addtional moudule
 * Goal : Get higher ROUGE score with freezed bart with addtional module. 
 * Rule
   * Do not test with more than 1 day. 
 
-### 1. Is learning rate important?
+### 🧙‍♂️ 1. Is learning rate important?
 
 * Token : 20210129
 
@@ -35,7 +35,7 @@
 * Conclusion
 
 
-### 2. Train with addtional path from encoder and use it only for the first word. 
+### 🧙‍♂️ 2. Train with addtional path from encoder and use it only for the first word. 
 * Additional module helps to predict the first word which is the most important choice. 
 
 * Setup

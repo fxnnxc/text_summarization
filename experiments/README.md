@@ -4,6 +4,7 @@
     - [🧙‍♂️ 2. [XSum]Train with addtional path from encoder and use it only for the first word.](#️-2-xsumtrain-with-addtional-path-from-encoder-and-use-it-only-for-the-first-word)
     - [🧙‍♂️ 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.](#️-3-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word)
     - [🧙‍♂️ 4. [CNN-DM]Train with additional path from encoder and use it only for the first word. Pretrained!!](#️-4-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word-pretrained)
+    - [🧙‍♂️ 5. [XSUM]] Control the relative extractive for the transformer](#️-5-xsum-control-the-relative-extractive-for-the-transformer)
 
 
 # Experiments
@@ -114,3 +115,34 @@ Additional module helps to predict the first word which is the most important ch
 2. Start from the pretrained model
 
 <img src="archived/20210119/model2.png" width=250px>
+
+**한계점**
+
+1. 소프트하게 유니그램을 저장하는 방식. 
+2. 단어페어에 대한 확률
+
+### 🧙‍♂️ 5. [XSUM]] Control the relative extractive for the transformer
+
+Train with additional path from encoder and use it only for the first word and control it with alpha
+
+```TK0203_1```
+
+* **Setup**
+  1. Model : BART + BGN from the encoder but I add it only to the first part
+     1. Pretrained
+  2. Criterion : ROUGE score
+  3. Data :  XSUM
+
+* **Conditions**
+  * start from Pretrained verision.
+  * Learning rate (3e-5)
+  * Warm UP  (500)
+  * Epoch  (5)
+
+* **Work Flow**
+1. Archive the previos work
+2. write a source code to calculate the ROUGE score
+3. write a source code to predict the ROUGE score(alpha)
+4. multiply it to the output of BGN(bag of words network)
+
+<img src="archived/20210203/model1.png" width=250px>

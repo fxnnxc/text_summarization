@@ -15,6 +15,8 @@
 
 ### 🧙‍♂️ 1. Is learning rate important?
 
+```TK20210129_1```
+
 * Token : 20210129
 
 * Setup
@@ -39,6 +41,8 @@
 ---
 
 ### 🧙‍♂️ 2. [XSum]Train with addtional path from encoder and use it only for the first word. 
+
+```TK20210129_2```
 
 Additional module helps to predict the first word which is the most important choice. 
 
@@ -65,11 +69,13 @@ Additional module helps to predict the first word which is the most important ch
 
 ### 🧙‍♂️ 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.
 
+```TK20210201_1```
+
 * **Setup**
   1. Model : BART + BGN from the encoder but I add it only to the first part.
      1. Finetuned
   2. Criterion : ROUGE score
-  3. Data :  CNN-DM
+  3. Data :  CNN-DM 
 
 * **Conditions**
   * start from finetuned verision.
@@ -88,6 +94,8 @@ Additional module helps to predict the first word which is the most important ch
 
 ### 🧙‍♂️ 4. [CNN-DM]Train with additional path from encoder and use it only for the first word. Pretrained!!
 
+```TK0202```
+
 * **Setup**
   1. Model : BART + BGN from the encoder but I add it only to the first part
      1. Pretrained
@@ -95,15 +103,14 @@ Additional module helps to predict the first word which is the most important ch
   3. Data :  CNN-DM
 
 * **Conditions**
-  * start from finetuned verision.
+  * start from Pretrained verision.
   * Learning rate (3e-5)
   * Warm UP  (500)
   * Epoch  (5)
   * Freeze BART
-  * 
+
 * **Work Flow**
-1. Freeze encoder and decoder to train only the PGN
-2. change ```train.py``` code to save a model after 2K updates maximum 10K
-3. run inference codes 
+1. Train full model. 
+2. Start from the pretrained model
 
 <img src="archived/20210119/model2.png" width=250px>

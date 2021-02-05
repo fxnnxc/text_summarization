@@ -1,11 +1,13 @@
 - [Experiments](#experiments)
   - [🏰 : Train freezed BART with addtional moudule](#--train-freezed-bart-with-addtional-moudule)
-    - [🧙‍♂️ 1. Is learning rate important?](#️-1-is-learning-rate-important)
-    - [🧙‍♂️ 2. [XSum]Train with addtional path from encoder and use it only for the first word.](#️-2-xsumtrain-with-addtional-path-from-encoder-and-use-it-only-for-the-first-word)
-    - [🧙‍♂️ 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.](#️-3-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word)
+    - [👻 1. Is learning rate important?](#-1-is-learning-rate-important)
+    - [👻 2. [XSum]Train with addtional path from encoder and use it only for the first word.](#-2-xsumtrain-with-addtional-path-from-encoder-and-use-it-only-for-the-first-word)
+    - [👻 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.](#-3-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word)
     - [🧙‍♂️ 4. [CNN-DM]Train with additional path from encoder and use it only for the first word. Pretrained!!](#️-4-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word-pretrained)
-    - [🧙‍♂️ 5. [XSUM]] Control the relative extractive for the transformer](#️-5-xsum-control-the-relative-extractive-for-the-transformer)
+    - [💀 5. [CNN-DM] Control the relative extractive for the transformer](#-5-cnn-dm-control-the-relative-extractive-for-the-transformer)
+    - [6. control the information of the encoded features in decreasing manner.](#6-control-the-information-of-the-encoded-features-in-decreasing-manner)
 
+[Result Table](https://docs.google.com/spreadsheets/d/12pEqyhzrY7bBsbuEe191Vs0DQyCQLA7EJ_YZQN82Ozo/edit#gid=207935871)
 
 # Experiments
 
@@ -14,7 +16,7 @@
 * Rule
   * Do not test with more than 1 day. 
 
-### 🧙‍♂️ 1. Is learning rate important?
+### 👻 1. Is learning rate important?
 
 ```TK20210129_1```
 
@@ -33,7 +35,6 @@
 
 
 <img src="archived/20210119/model.png" width=250px>
-
 <img src="archived/20210119/loss1.png" width=250px>
 						
 [Materials](archiveWd/20210119)
@@ -41,7 +42,7 @@
 
 ---
 
-### 🧙‍♂️ 2. [XSum]Train with addtional path from encoder and use it only for the first word. 
+### 👻 2. [XSum]Train with addtional path from encoder and use it only for the first word. 
 
 ```TK20210129_2```
 
@@ -59,16 +60,14 @@ Additional module helps to predict the first word which is the most important ch
   * Epoch  (5)
 
 <img src="archived/20210119/model2.png" width=250px>
-
 <img src="archived/20210119/loss2.png" width=250px>
 
 
-* Result
-    * https://docs.google.com/spreadsheets/d/12pEqyhzrY7bBsbuEe191Vs0DQyCQLA7EJ_YZQN82Ozo/edit#gid=207935871
+
 
 ---
 
-### 🧙‍♂️ 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.
+### 👻 3. [CNN-DM]Train with additional path from encoder and use it only for the first word.
 
 ```TK20210201_1```
 
@@ -116,22 +115,26 @@ Additional module helps to predict the first word which is the most important ch
 
 <img src="archived/20210119/model2.png" width=250px>
 
+[Materials](archiveWd/20210203)
+
 **한계점**
 
 1. 소프트하게 유니그램을 저장하는 방식. 
 2. 단어페어에 대한 확률
 
-### 🧙‍♂️ 5. [XSUM]] Control the relative extractive for the transformer
+### 💀 5. [CNN-DM] Control the relative extractive for the transformer
 
-Train with additional path from encoder and use it only for the first word and control it with alpha
+```💀 : Failed since I got OOM error```
 
 ```TK0203_1```
+
+Train with additional path from encoder and use it only for the first word and control it with alpha
 
 * **Setup**
   1. Model : BART + BGN from the encoder but I add it only to the first part
      1. Pretrained
   2. Criterion : ROUGE score
-  3. Data :  XSUM
+  3. Data :  CNN_DM
 
 * **Conditions**
   * start from Pretrained verision.
@@ -140,9 +143,30 @@ Train with additional path from encoder and use it only for the first word and c
   * Epoch  (5)
 
 * **Work Flow**
-1. Archive the previos work
-2. write a source code to calculate the ROUGE score
-3. write a source code to predict the ROUGE score(alpha)
-4. multiply it to the output of BGN(bag of words network)
+  1. Archive the previos work
+  2. write a source code to calculate the ROUGE score
+  3. write a source code to predict the ROUGE score(alpha)
+  4. multiply it to the output of BGN(bag of words network)
 
 <img src="archived/20210203/model1.png" width=250px>
+
+[Materials](archiveWd/20210203)
+
+### 6. control the information of the encoded features in decreasing manner. 
+
+```TK0205_1```
+
+* **Setup**
+  1. Model is BART + BGN from the encoder and use it to the last linear layer in the decreasing manner. 
+  2. Criterion : ROUGE score
+  3. Data : CNN-DM
+
+* **Wrok Flow**
+  - [X] Write a code. (model.py)
+  - [X] Train
+  - [X] Write a code. (Sequence_generator.py)
+  - [X] [archive](archived/20210205) the source code 
+  - [X] prepare the table of the result
+  - [X] Draw a diagram and wait for the result. 
+
+<img src="archived/20210205/model1.png" width=250px>

@@ -180,7 +180,7 @@ Task Token : ```TK0205_1```
 
 <img src="archived/20210205/model1.png" width=250px>
 
----
+----
 
 ## 7. Remove the chosen words
 

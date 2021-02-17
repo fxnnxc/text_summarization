@@ -6,7 +6,6 @@ Coferencec paper reviews
 
 ---
 
-
 ## Hi3story
 
 * 12/19 Implementated [Inference bart parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_base_inference_parallel.py)(spped up!)

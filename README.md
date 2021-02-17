@@ -6,7 +6,6 @@ Coferencec paper reviews
 
 ---
 
-hi. 234234
 
 ## Hi3story
 

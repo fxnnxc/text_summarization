@@ -9,7 +9,7 @@
 |[Experiment2](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment2)|simple beta annealing schedule <br/> BART + beta-VAE GRU |[![All Contributors](https://img.shields.io/badge/build-Unstable-red)](#contributors-)|
 |[Experiment3](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment3)|beta annealing schedule types <br/>BART + beta-VAE | [![All Contributors](https://img.shields.io/badge/build-Semi_Stable-orange)](#contributors-) |
 |[Experiment4](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiment4)|Freezing, Linear Probing Issue | [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
-|[Mini Experiments](https://github.com/fxnnxc/text_summarization/tree/main/experiments/experiments)| Fast try!!!  | [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
+|[Mini Experiments](https://github.com/fxnnxc/text_summarization/tree/main/experiments)| Fast try!!!  | [![All Contributors](https://img.shields.io/badge/build-Stable-green)](#contributors-) |
 
 ---
 

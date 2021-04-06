@@ -23,7 +23,7 @@ The only successful case is
 |Model|ROUGE1	| ROUGE2 |	RUOGEL	| Novel 1	| Novel 12 |	Novel 13|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |BART|43.45 |	20.62 |	40.35 |	1.62 |	11.83 |	21.78 |
-|Ours|**43.63** |	**20.81** |	40.3 |	1.009	 | 7.86 |	15.32|
+|Ours|**43.63** |	**20.81** |	40.3 |	**1.009**	 | **7.86** |	**15.32** |
 
 
 You can check the [Result Sheets](https://docs.google.com/spreadsheets/d/12pEqyhzrY7bBsbuEe191Vs0DQyCQLA7EJ_YZQN82Ozo/edit#gid=1507687031)

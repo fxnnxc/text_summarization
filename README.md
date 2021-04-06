@@ -16,7 +16,7 @@
 ## Result
 
 The only successful case is
-[[CNN-DM]Train with additional path from encoder and use it only for the first word. Pretrained](https://github.com/fxnnxc/text_summarization/tree/main/experiments#%EF%B8%8F-4-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word-pretrained)
+[[CNN-DM] Additional Path From Encoder and use it only for the First word with Pretrained](https://github.com/fxnnxc/text_summarization/tree/main/experiments#%EF%B8%8F-4-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word-pretrained)
 
 
 |Model|ROUGE1	| ROUGE2 |	RUOGEL	| N1	| N2 |	N3|

@@ -25,6 +25,8 @@ The only successful case is
 |Ours|**43.63** |	**20.81** |	40.3 |	1.009	 | 7.86 |	15.32|
 
 
+[Result Sheets](https://docs.google.com/spreadsheets/d/12pEqyhzrY7bBsbuEe191Vs0DQyCQLA7EJ_YZQN82Ozo/edit#gid=1507687031)
+
 ## Update History
 
 * 12/19 Implementated [Inference bart parallel](https://github.com/fxnnxc/text_summarization/blob/main/experiments/experiment3/inference/bart_base_inference_parallel.py)(spped up!)

@@ -15,8 +15,6 @@
 
 ## Result
 
-Check the short paper [Encoder_Extract_Transformer.pdf](https://github.com/fxnnxc/text_summarization/blob/main/Encoder_Extract_Transformer.pdf) for more information
-
 The only successful case is
 [[CNN-DM] Additional Path From Encoder and use it only for the First word with Pretrained](https://github.com/fxnnxc/text_summarization/tree/main/experiments#%EF%B8%8F-4-cnn-dmtrain-with-additional-path-from-encoder-and-use-it-only-for-the-first-word-pretrained)
 
@@ -28,8 +26,9 @@ The only successful case is
 |Ours|**43.63** |	**20.81** |	40.3 |	**1.009**	 | **7.86** |	**15.32** |
 
 
-You can check the [Result Sheets](https://docs.google.com/spreadsheets/d/12pEqyhzrY7bBsbuEe191Vs0DQyCQLA7EJ_YZQN82Ozo/edit#gid=1507687031)
-for other results
+
+Check the short paper [Encoder_Extract_Transformer.pdf](https://github.com/fxnnxc/text_summarization/blob/main/Encoder_Extract_Transformer.pdf) for more information
+
 
 ## Update History
 

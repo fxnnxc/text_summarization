@@ -1,6 +1,8 @@
 # Text Summarization Experiments
 
 
+> 🧐 This repository is chaotic because it is my first work as a researcher. Sorry for the inconvenience of the unstructured experiment. If you have any questions or something to discuss, feel free to contact me!  bjp032501@gmail.com
+
 ## Experiments 🥼
 
 | Index | Info | Stability  <br/> of Code|
